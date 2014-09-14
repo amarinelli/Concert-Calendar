@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Toronto Concert Calendar</title>
+		<link rel="stylesheet" href="css/list.css" type="text/css"/>	
+	</head>
+	<body>
+		<div id="s">
+			<input class="search" placeholder="Search" />
+			<button class="sort" data-sort="name">
+				Sort by name
+			</button>
+			<table>
+				<thead>
+					<tr>
+						<td><u><strong>ARTIST</strong></u></td>
+						<td><u><strong>VENUE</strong></u></td>
+						<td><u><strong>DATE</strong></u></td>
+						<td><u><strong>PRICE</strong></u></td>
+					</tr>
+				</thead>
+				<!-- IMPORTANT, class="list" have to be at tbody -->
+				<tbody class="list">
+					<tr>
+						<td class='artist'>54-40 + The Grapes Of Wrath</td>
+						<td class='venue'>Danforth Music Hall</td>
+						<td class='date'>Sat. Oct 4</td>
+						<td class='price'>$31.00</td>
+
+					</tr>
+					<tr>
+						<td class='artist'>The 1975</td>
+						<td class='venue'>Kool Haus</td>
+						<td class='date'>Sun. Nov 2</td>
+						<td class='price'>SOLD OUT</td>
+					</tr>
+					<tr>
+						<td class='artist'>2001: A Space Odyssey (ft. Pat Mahoney)</td>
+						<td class='venue'>99 Sudbury</td>
+						<td class='date'>Fri. Sep 12</td>
+						<td class='price'>SOLD OUT</td>
+					  </tr>
+					  <tr>
+						<td class='artist'>Abandon All Ships</td>
+						<td class='venue'>Mod Club</td>
+						<td class='date'>Thu. Sep 25</td>
+						<td class='price'>$15.00</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script type="text/javascript" src="http://listjs.com/no-cdn/list.js"></script>
+		<!-- need to load filter.js at end of file and after list.js -->
+		<!-- <script type="text/javascript" src="js/filter.js"></script>  -->
+		<script>
+			var options = {
+			  valueNames: [ 'artist', 'venue', 'date', 'price' ]
+			};
+
+			var userList = new List('s', options);
+		</script>
+	</body>
+</html>
