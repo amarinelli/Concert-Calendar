@@ -2,21 +2,22 @@
 <html>
 	<head>
 		<title>Toronto Concert Calendar</title>
-		<link rel="stylesheet" href="css/list.css" type="text/css"/>	
+		<script type='text/javascript' src='http://localhost/tablesorter/jquery-latest.js'></script>
+		<script type='text/javascript' src='http://localhost/tablesorter/jquery.tablesorter.js'></script>
+		<link rel="stylesheet" href="css/table.css" type="text/css"/>
+		<link rel="stylesheet" href="css/list.css" type="text/css"/>		
 	</head>
 	<body>
 		<div id="s">
-			<input class="search" placeholder="Search" />
-			<button class="sort" data-sort="name">
-				Sort by name
-			</button>
-			<table>
+			<input class="search" placeholder="Search" />			
+			<table id='myTable' class='tablesorter'>
+			<!-- You must include THEAD and TBODY tags (<th> tags in head are necessary) -->
 				<thead>
 					<tr>
-						<td><u><strong>ARTIST</strong></u></td>
-						<td><u><strong>VENUE</strong></u></td>
-						<td><u><strong>DATE</strong></u></td>
-						<td><u><strong>PRICE</strong></u></td>
+						<th><u><strong>ARTIST</strong></u></th>
+						<th><u><strong>VENUE</strong></u></th>
+						<th><u><strong>DATE</strong></u></th>
+						<th><u><strong>PRICE</strong></u></th>
 					</tr>
 				</thead>
 				<!-- IMPORTANT, class="list" have to be at tbody -->
@@ -49,9 +50,17 @@
 				</tbody>
 			</table>
 		</div>
-		<script type="text/javascript" src="http://listjs.com/no-cdn/list.js"></script>
+		<script type="text/javascript" src="http://listjs.com/no-cdn/list.js"></script>		
 		<!-- need to load filter.js at end of file and after list.js -->
 		<!-- <script type="text/javascript" src="js/filter.js"></script>  -->
+		<script>
+			$(document).ready(function() {
+					console.log('ready');
+					
+					$("#myTable").tablesorter(); 
+				} 
+			);
+		</script>
 		<script>
 			var options = {
 			  valueNames: [ 'artist', 'venue', 'date', 'price' ]
