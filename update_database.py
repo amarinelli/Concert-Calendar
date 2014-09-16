@@ -1,38 +1,61 @@
 # https://github.com/ozgur/python-firebase
 
 import firebase
+import urllib2
+import string
 
-if __name__ == '__main__':
-    
-    DSN = 'https://concert-calendar.firebaseio.com/'
-    firebase = firebase.FirebaseApplication(DSN)
+def Upload_to_Firebase(json):
+    DSN = 'https://<application>.firebaseio.com/'
+    database = firebase.FirebaseApplication(DSN)
 
-    # Test data
-    data = {
-          "entry001": {
-            "artist": "Mounties",
-            "venue": "Lee's Palace",
-            "date": "Saturday, Nov 1",
-            "price": 20.00
-          },
-          "entry002": {
-            "artist": "Mother Mother",
-            "venue": "The Horseshoe Tavern",
-            "date": "Monday, Sept 15",
-            "price": "SOLD OUT"
-          }
-    }
-    
     node = '/' + 'current-concerts'
 
     # Delete existing data
-    firebase.delete(node, None)
+    database.delete(node, None)
 
     # Add new data
-    firebase.post(node, data)
+    database.post(node, json)
 
     # Fetch new data
-    result = firebase.get(node, None)
-    print result    
+    #result = database.get(node, None)
+    #print result
 
-    print "\ndone"
+def Build_json(html):
+    result = []    
+    for h in html:        
+        if h[4:12] == "<strong>" or h[4:12] == "<strike>":
+            result.append(h[12:-15])
+        else:
+            result.append(h[4:-6])    
+    return result
+
+def main():
+    url = "http://www.soundscapesmusic.com/tickets/"
+    page = urllib2.urlopen(url).read().split("\n")
+
+    count = 0
+    entry = -1
+    htmlList = []
+    data = {}
+
+    for line in page:
+        if line.startswith("<tr>"):
+            if entry == -1:
+                entry +=1
+            else:
+                item = Build_json(page[count+1:count+5])
+                data["show-"+str(entry)] = {
+                    "artist" : item[0],
+                    "venue" : item[1],
+                    "date" : item[2],
+                    "price" : item[3]                 
+                    }
+                entry +=1
+        count +=1
+    
+
+    Upload_to_Firebase(data)      
+
+if __name__ == '__main__':
+    main()
+    print "done"
