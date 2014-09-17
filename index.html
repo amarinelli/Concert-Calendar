@@ -8,6 +8,31 @@
 		<link rel="stylesheet" href="css/list.css" type="text/css"/>		
 	</head>
 	<body>
+		<script>
+			function kimonoCallback(data) {
+				console.log("callback");
+				var table = document.getElementById("tableBody");
+				var results = data.results;
+				var collection1 = results.collection1;
+				for (index=1;index<100;index++) {
+					var event = collection1[index];
+					var tr = document.createElement("TR");
+					var newcell1 = tr.insertCell(-1);
+					var newcell2 = tr.insertCell(-1);
+					var newcell3 = tr.insertCell(-1);
+					var newcell4 = tr.insertCell(-1);
+					newcell1.innerHTML=event.artist;
+					newcell1.className = "artist";
+					newcell2.innerHTML=event.venue;
+					newcell2.className = "venue";
+					newcell3.innerHTML=event.date;
+					newcell3.className = "date";
+					newcell4.innerHTML=event.price;
+					newcell4.className = "price";
+					table.appendChild(tr);
+				}				
+			}
+		</script>
 		<div id="s">
 			<input class="search" placeholder="Search" />			
 			<table id='myTable' class='tablesorter'>
@@ -21,32 +46,7 @@
 					</tr>
 				</thead>
 				<!-- IMPORTANT, class="list" have to be at tbody -->
-				<tbody class="list">
-					<tr>
-						<td class='artist'>54-40 + The Grapes Of Wrath</td>
-						<td class='venue'>Danforth Music Hall</td>
-						<td class='date'>Sat. Oct 4</td>
-						<td class='price'>$31.00</td>
-
-					</tr>
-					<tr>
-						<td class='artist'>The 1975</td>
-						<td class='venue'>Kool Haus</td>
-						<td class='date'>Sun. Nov 2</td>
-						<td class='price'>SOLD OUT</td>
-					</tr>
-					<tr>
-						<td class='artist'>2001: A Space Odyssey (ft. Pat Mahoney)</td>
-						<td class='venue'>99 Sudbury</td>
-						<td class='date'>Fri. Sep 12</td>
-						<td class='price'>SOLD OUT</td>
-					  </tr>
-					  <tr>
-						<td class='artist'>Abandon All Ships</td>
-						<td class='venue'>Mod Club</td>
-						<td class='date'>Thu. Sep 25</td>
-						<td class='price'>$15.00</td>
-					</tr>
+				<tbody id="tableBody" class="list">					
 				</tbody>
 			</table>
 		</div>
@@ -55,9 +55,18 @@
 		<!-- <script type="text/javascript" src="js/filter.js"></script>  -->
 		<script>
 			$(document).ready(function() {
-					console.log('ready');
+					console.log('ready');				
+
 					
-					$("#myTable").tablesorter(); 
+					$.ajax({
+						"url":"https://www.kimonolabs.com/api/69auren6?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
+						"crossDomain":true,
+						"dataType":"jsonp"
+					});
+					
+					console.log("calling");
+					
+					$("#myTable").tablesorter();
 				} 
 			);
 		</script>
@@ -65,7 +74,6 @@
 			var options = {
 			  valueNames: [ 'artist', 'venue', 'date', 'price' ]
 			};
-
 			var userList = new List('s', options);
 		</script>
 	</body>
