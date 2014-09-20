@@ -12,7 +12,8 @@ $(document).ready(function() {
 					{"type": "string"},
 					{"type": "string"},
 					{"type": "date"},
-					{"type": "num-fmt"}
+					{"type": "num-fmt"},
+					{"type": "string"}
 				],
 				"paging": true,
 				"autoWidth": true,
@@ -27,44 +28,56 @@ $(document).ready(function() {
 	});		
 });
 
+function CreateTable(element, index, array) {
+	var table = document.getElementById("tableBody");	
+	if (typeof element.date === 'object') {
+		var date_raw = element.date.text;
+		var date = date_raw.substring(0,3) + ". " + date_raw.substring(4);
+	} else if (element.api == "collective-concerts") {
+		var date_raw = element.date;
+		lookup = {"1":"Jan", "2":"Feb", "3":"Mar","4":"Apr","5":"May","6":"Jun","7":"Jul","8":"Aug","9":"Sept","10":"Oct","11":"Nov","12":"Dec"};
+		var weekday = date_raw.substring(0,3);
+		var split_date = date_raw.split(" ");		
+		var month = lookup[split_date[1].split("/")[0]];;
+		var day = split_date[1].split("/")[1];
+		var date = weekday + ". " + month + " " + day;			
+	} else {
+		var date = element.date;
+}	
+	if ((/^ARTIST__/).test(element.artist) != true) {
+		var tr = document.createElement("TR");
+		var newcell1 = tr.insertCell(-1);
+		var newcell2 = tr.insertCell(-1);
+		var newcell3 = tr.insertCell(-1);
+		var newcell4 = tr.insertCell(-1);
+		var newcell5 = tr.insertCell(-1);
+		
+		if (element.api == "collective-concerts") {
+			newcell1.innerHTML=element.artist.text;		
+			newcell2.innerHTML=element.venue;		
+			newcell3.innerHTML=date;		
+			newcell4.innerHTML=element.price;
+		} else if (element.api == "just-shows") {
+			newcell1.innerHTML=element.artist.text;		
+			newcell2.innerHTML=element.venue.text;		
+			newcell3.innerHTML=date;		
+			newcell4.innerHTML=element.price.text;
+		} else {			
+			newcell1.innerHTML=element.artist;		
+			newcell2.innerHTML=element.venue;		
+			newcell3.innerHTML=date;		
+			newcell4.innerHTML=element.price;			
+		}
+		newcell5.innerHTML=element.api;
+	}
+	if (tr != null){ 
+		table.appendChild(tr);
+	}
+};
+
 function kimonoCallback(data) {
 	var results = data.results;
-	var collection1 = results.data;
-	/* $.each(results, function() { 
-		alert(this.data.length);
-    }); */	
-		
-	var table = document.getElementById("tableBody");	
+	var collection = results.data;	
 	
-	
-	for (index=1;index<600;index++) {
-		var event = collection1[index];
-		if ((/^ARTIST/).test(event.artist) != true) {
-			var tr = document.createElement("TR");
-			var newcell1 = tr.insertCell(-1);
-			var newcell2 = tr.insertCell(-1);
-			var newcell3 = tr.insertCell(-1);
-			var newcell4 = tr.insertCell(-1);
-			
-			if (event.api == "collective-concerts") {
-				newcell1.innerHTML=event.artist.text;		
-				newcell2.innerHTML=event.venue;		
-				newcell3.innerHTML=event.date;		
-				newcell4.innerHTML=event.price;
-			} else if (event.api == "just-shows") {
-				newcell1.innerHTML=event.artist.text;		
-				newcell2.innerHTML=event.venue.text;		
-				newcell3.innerHTML=event.date.text;		
-				newcell4.innerHTML=event.price.text;
-			} else {			
-				newcell1.innerHTML=event.artist;		
-				newcell2.innerHTML=event.venue;		
-				newcell3.innerHTML=event.date;		
-				newcell4.innerHTML=event.price;			
-			}		
-		}
-		if (tr != null){ 
-			table.appendChild(tr);
-		}
-	}				
+	collection.forEach(CreateTable);
 }
