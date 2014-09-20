@@ -1,0 +1,4254 @@
+{
+	"name" : "SHOWS",
+	"frequency" : "Weekly",
+	"nextrun" : "Thu Sep 25 2014 03:43:46 GMT+0000 (UTC)",
+	"results" : {
+		"data" : [{
+				"artist" : {
+					"text" : "Beta Frontiers",
+					"href" : "http://justshows.com/toronto/2014/09/19/beta-frontiers/11559/"
+				},
+				"venue" : {
+					"text" : "The Silver Dollar Room",
+					"href" : "http://justshows.com/toronto/2014/09/19/beta-frontiers/11559/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/beta-frontiers/11559/"
+				},
+				"price" : {
+					"text" : "$8 door",
+					"href" : "http://justshows.com/toronto/2014/09/19/beta-frontiers/11559/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "ARTIST_____________________________",
+				"venue" : "VENUE___________",
+				"date" : "DATE_________",
+				"price" : "PRICE______",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Nick Waterhouse",
+					"href" : "http://www.collectiveconcerts.com/event/616267-nick-waterhouse-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Wed 9/17",
+				"price" : "$20",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Stuff You Should Know",
+					"href" : "http://justshows.com/toronto/2014/09/19/stuff-you-should-know/11451/"
+				},
+				"venue" : {
+					"text" : "The Royal",
+					"href" : "http://justshows.com/toronto/2014/09/19/stuff-you-should-know/11451/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/stuff-you-should-know/11451/"
+				},
+				"price" : {
+					"text" : "$22.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/stuff-you-should-know/11451/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "54-40 + The Grapes Of Wrath",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Oct 4",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Watchmen",
+					"href" : "http://www.collectiveconcerts.com/event/588807-watchmen-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 9/18",
+				"price" : "$27.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Ought",
+					"href" : "http://justshows.com/toronto/2014/09/19/ought/11035/"
+				},
+				"venue" : {
+					"text" : "Hard Luck",
+					"href" : "http://justshows.com/toronto/2014/09/19/ought/11035/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/ought/11035/"
+				},
+				"price" : {
+					"text" : "$12 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/ought/11035/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "The 1975",
+				"venue" : "Kool Haus",
+				"date" : "Sun. Nov 2",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Gaslight Anthem",
+					"href" : "http://www.collectiveconcerts.com/event/613541-gaslight-anthem-toronto/"
+				},
+				"venue" : "Sound Academy",
+				"date" : "Fri 9/19",
+				"price" : "$33.50 - $45.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Deafheaven",
+					"href" : "http://justshows.com/toronto/2014/09/19/deafheaven/10337/"
+				},
+				"venue" : {
+					"text" : "The Opera House",
+					"href" : "http://justshows.com/toronto/2014/09/19/deafheaven/10337/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/deafheaven/10337/"
+				},
+				"price" : {
+					"text" : "$17.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/deafheaven/10337/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Abandon All Ships",
+				"venue" : "Mod Club",
+				"date" : "Thu. Sep 25",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Deafheaven",
+					"href" : "http://www.collectiveconcerts.com/event/604411-deafheaven-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Fri 9/19",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Catey Shaw",
+					"href" : "http://justshows.com/toronto/2014/09/19/catey-shaw/11080/"
+				},
+				"venue" : {
+					"text" : "Drake Hotel",
+					"href" : "http://justshows.com/toronto/2014/09/19/catey-shaw/11080/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/catey-shaw/11080/"
+				},
+				"price" : {
+					"text" : "$13.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/catey-shaw/11080/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "The Airborne Toxic Event",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Oct 11",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Ought",
+					"href" : "http://www.collectiveconcerts.com/event/645001-ought-toronto/"
+				},
+				"venue" : "Hard Luck",
+				"date" : "Fri 9/19",
+				"price" : "$12.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Crowbar",
+					"href" : "http://justshows.com/toronto/2014/09/19/crowbar/11741/"
+				},
+				"venue" : {
+					"text" : "Phoenix Concert Theatre",
+					"href" : "http://justshows.com/toronto/2014/09/19/crowbar/11741/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/crowbar/11741/"
+				},
+				"price" : {
+					"text" : "$20 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/crowbar/11741/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Airbourne",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Oct 9",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "WHY?",
+					"href" : "http://www.collectiveconcerts.com/event/588809-why-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 9/19",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Outer Rooms",
+					"href" : "http://justshows.com/toronto/2014/09/19/outer-rooms/11736/"
+				},
+				"venue" : {
+					"text" : "The Cavern Bar",
+					"href" : "http://justshows.com/toronto/2014/09/19/outer-rooms/11736/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/outer-rooms/11736/"
+				},
+				"price" : {
+					"text" : "PWYC, $5 sugg.",
+					"href" : "http://justshows.com/toronto/2014/09/19/outer-rooms/11736/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Allah-Las",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Nov 27",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Watchmen",
+					"href" : "http://www.collectiveconcerts.com/event/578627-watchmen-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 9/19",
+				"price" : "$27.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Benefit for R.E.W.T w/ Mike Ford",
+					"href" : "http://justshows.com/toronto/2014/09/19/benefit-for-rewt-w-mike-ford/11748/"
+				},
+				"venue" : {
+					"text" : "Free Times Café",
+					"href" : "http://justshows.com/toronto/2014/09/19/benefit-for-rewt-w-mike-ford/11748/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/benefit-for-rewt-w-mike-ford/11748/"
+				},
+				"price" : {
+					"text" : "$10 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/benefit-for-rewt-w-mike-ford/11748/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Allen Stone",
+				"venue" : "Phoenix",
+				"date" : "Tue. Oct 14",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Whirr",
+					"href" : "http://www.collectiveconcerts.com/event/628709-whirr-toronto/"
+				},
+				"venue" : "Sneaky Dee's Concert Venue",
+				"date" : "Sat 9/20",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Why?",
+					"href" : "http://justshows.com/toronto/2014/09/19/why/10091/"
+				},
+				"venue" : {
+					"text" : "Lee’s Palace",
+					"href" : "http://justshows.com/toronto/2014/09/19/why/10091/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/why/10091/"
+				},
+				"price" : {
+					"text" : "$16.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/why/10091/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Allo Darlin'",
+				"venue" : "Drake Underground",
+				"date" : "Tue. Nov 4",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "My Brightest Diamond",
+					"href" : "http://www.collectiveconcerts.com/event/609967-my-brightest-diamond-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Sat 9/20",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Orit Shimoni",
+					"href" : "http://justshows.com/toronto/2014/09/19/orit-shimoni/11152/"
+				},
+				"venue" : {
+					"text" : "The Dakota Tavern",
+					"href" : "http://justshows.com/toronto/2014/09/19/orit-shimoni/11152/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/orit-shimoni/11152/"
+				},
+				"price" : {
+					"text" : "$10 door",
+					"href" : "http://justshows.com/toronto/2014/09/19/orit-shimoni/11152/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Alt-J",
+				"venue" : "Kool Haus",
+				"date" : "Tue. Nov 11",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Twin Shadow",
+					"href" : "http://www.collectiveconcerts.com/event/614199-twin-shadow-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Sat 9/20",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "The Gaslight Anthem",
+					"href" : "http://justshows.com/toronto/2014/09/19/the-gaslight-anthem/10654/"
+				},
+				"venue" : {
+					"text" : "Sound Academy",
+					"href" : "http://justshows.com/toronto/2014/09/19/the-gaslight-anthem/10654/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/the-gaslight-anthem/10654/"
+				},
+				"price" : {
+					"text" : "$33.50—$45.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/the-gaslight-anthem/10654/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Amanda Palmer",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Nov 25",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Mutual Benefit",
+					"href" : "http://www.collectiveconcerts.com/event/637713-mutual-benefit-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 9/20",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Wand",
+					"href" : "http://justshows.com/toronto/2014/09/19/wand/10818/"
+				},
+				"venue" : {
+					"text" : "Smiling Buddha",
+					"href" : "http://justshows.com/toronto/2014/09/19/wand/10818/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/wand/10818/"
+				},
+				"price" : {
+					"text" : "$8 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/wand/10818/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Anberlin",
+				"venue" : "Phoenix",
+				"date" : "Tue. Nov 18",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Wakey! Wakey!",
+					"href" : "http://www.collectiveconcerts.com/event/603141-wakey-wakey-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 9/20",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Dean Brody",
+					"href" : "http://justshows.com/toronto/2014/09/19/dean-brody/11329/"
+				},
+				"venue" : {
+					"text" : "Massey Hall",
+					"href" : "http://justshows.com/toronto/2014/09/19/dean-brody/11329/"
+				},
+				"date" : {
+					"text" : "Fri Sep 19",
+					"href" : "http://justshows.com/toronto/2014/09/19/dean-brody/11329/"
+				},
+				"price" : {
+					"text" : "$39—$79 advance",
+					"href" : "http://justshows.com/toronto/2014/09/19/dean-brody/11329/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Andrew McMahon",
+				"venue" : "Opera House",
+				"date" : "Wed. Nov 5",
+				"price" : "$29.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Hiss Golden Messenger",
+					"href" : "http://www.collectiveconcerts.com/event/616231-hiss-golden-messenger-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sun 9/21",
+				"price" : "$12.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Shone Knife",
+					"href" : "http://justshows.com/toronto/2014/09/20/shone-knife/10793/"
+				},
+				"venue" : {
+					"text" : "The Silver Dollar Room",
+					"href" : "http://justshows.com/toronto/2014/09/20/shone-knife/10793/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/shone-knife/10793/"
+				},
+				"price" : {
+					"text" : "$10 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/shone-knife/10793/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Angry Samoans",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sat. Sep 20",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "FouseyTUBE",
+					"href" : "http://www.collectiveconcerts.com/event/613507-fouseytube-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Mon 9/22",
+				"price" : "$24.50- $39.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Pain Of Salvation",
+					"href" : "http://justshows.com/toronto/2014/09/20/pain-of-salvation/11742/"
+				},
+				"venue" : {
+					"text" : "Coda",
+					"href" : "http://justshows.com/toronto/2014/09/20/pain-of-salvation/11742/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/pain-of-salvation/11742/"
+				},
+				"price" : {
+					"text" : "$23.50—$50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/pain-of-salvation/11742/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Angus & Julia Stone",
+				"venue" : "Opera House",
+				"date" : "Tue. Oct 21",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Slow Club",
+					"href" : "http://www.collectiveconcerts.com/event/609825-slow-club-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Wed 9/24",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Architects",
+					"href" : "http://justshows.com/toronto/2014/09/20/architects/10548/"
+				},
+				"venue" : {
+					"text" : "The Opera House",
+					"href" : "http://justshows.com/toronto/2014/09/20/architects/10548/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/architects/10548/"
+				},
+				"price" : {
+					"text" : "$20 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/architects/10548/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Antemasque",
+				"venue" : "Mod Club",
+				"date" : "Fri. Nov 14",
+				"price" : "$23.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Black Lips",
+					"href" : "http://www.collectiveconcerts.com/event/588767-black-lips-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Thu 9/25",
+				"price" : "$23.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Whirr",
+					"href" : "http://justshows.com/toronto/2014/09/20/whirr/10676/"
+				},
+				"venue" : {
+					"text" : "Sneaky Dee’s",
+					"href" : "http://justshows.com/toronto/2014/09/20/whirr/10676/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/whirr/10676/"
+				},
+				"price" : {
+					"text" : "$12.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/whirr/10676/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Anvil",
+				"venue" : "Rockpile East",
+				"date" : "Sat. Oct 4",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Jennifer Castle",
+					"href" : "http://www.collectiveconcerts.com/event/680489-jennifer-castle-toronto/"
+				},
+				"venue" : "The Great Hall",
+				"date" : "Thu 9/25",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Mutual Benefit",
+					"href" : "http://justshows.com/toronto/2014/09/20/mutual-benefit/10939/"
+				},
+				"venue" : {
+					"text" : "Lee’s Palace",
+					"href" : "http://justshows.com/toronto/2014/09/20/mutual-benefit/10939/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/mutual-benefit/10939/"
+				},
+				"price" : {
+					"text" : "$13.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/mutual-benefit/10939/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Architects",
+				"venue" : "Opera House",
+				"date" : "Sat. Sep 20",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Dandy Warhols",
+					"href" : "http://www.collectiveconcerts.com/event/614303-dandy-warhols-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Thu 9/25",
+				"price" : "$33.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Headspace",
+					"href" : "http://justshows.com/toronto/2014/09/20/headspace/11737/"
+				},
+				"venue" : {
+					"text" : "The Cavern Bar",
+					"href" : "http://justshows.com/toronto/2014/09/20/headspace/11737/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/headspace/11737/"
+				},
+				"price" : {
+					"text" : "PWYC",
+					"href" : "http://justshows.com/toronto/2014/09/20/headspace/11737/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Arkells",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Nov 27",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Single Mothers",
+					"href" : "http://www.collectiveconcerts.com/event/655705-single-mothers-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 9/25",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Twin Shadow",
+					"href" : "http://justshows.com/toronto/2014/09/20/twin-shadow/10477/"
+				},
+				"venue" : {
+					"text" : "Phoenix Concert Theatre",
+					"href" : "http://justshows.com/toronto/2014/09/20/twin-shadow/10477/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/twin-shadow/10477/"
+				},
+				"price" : {
+					"text" : "$20 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/twin-shadow/10477/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Arkells",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Nov 28",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Fucked Up",
+					"href" : "http://www.collectiveconcerts.com/event/631247-fucked-up-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 9/26",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "WAKEY!WAKEY!",
+					"href" : "http://justshows.com/toronto/2014/09/20/wakeywakey/10317/"
+				},
+				"venue" : {
+					"text" : "The Horseshoe Tavern",
+					"href" : "http://justshows.com/toronto/2014/09/20/wakeywakey/10317/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/wakeywakey/10317/"
+				},
+				"price" : {
+					"text" : "$13.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/wakeywakey/10317/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Art Bergmann (w/ Tony Dekker + Two-Minute Miracles)",
+				"venue" : "Great Hall",
+				"date" : "Fri. Oct 24",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Fucked Up",
+					"href" : "http://www.collectiveconcerts.com/event/631255-fucked-up-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 9/27",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Allyson Murrell and Anthony Moncata",
+					"href" : "http://justshows.com/toronto/2014/09/20/allyson-murrell-and-anthony-moncata/11749/"
+				},
+				"venue" : {
+					"text" : "Free Times Café",
+					"href" : "http://justshows.com/toronto/2014/09/20/allyson-murrell-and-anthony-moncata/11749/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/allyson-murrell-and-anthony-moncata/11749/"
+				},
+				"price" : {
+					"text" : "$5 door",
+					"href" : "http://justshows.com/toronto/2014/09/20/allyson-murrell-and-anthony-moncata/11749/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Asaf Avidan",
+				"venue" : "Mod Club",
+				"date" : "Tue. Feb 25",
+				"price" : "CANCELLED REFUNDS",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Joey Cape",
+					"href" : "http://www.collectiveconcerts.com/event/603051-joey-cape-toronto/"
+				},
+				"venue" : "The Cave",
+				"date" : "Sat 9/27",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Guerilla Toss",
+					"href" : "http://justshows.com/toronto/2014/09/20/guerilla-toss/11627/"
+				},
+				"venue" : {
+					"text" : "Milk Glass Co.",
+					"href" : "http://justshows.com/toronto/2014/09/20/guerilla-toss/11627/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/guerilla-toss/11627/"
+				},
+				"price" : {
+					"text" : "$8 door",
+					"href" : "http://justshows.com/toronto/2014/09/20/guerilla-toss/11627/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "As Blood Runs Black",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sat. Nov 8",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Zeus",
+					"href" : "http://www.collectiveconcerts.com/event/647859-zeus-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 9/27",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Rascal Flatts",
+					"href" : "http://justshows.com/toronto/2014/09/20/rascal-flatts/9759/"
+				},
+				"venue" : {
+					"text" : "Molson Ampitheatre",
+					"href" : "http://justshows.com/toronto/2014/09/20/rascal-flatts/9759/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/rascal-flatts/9759/"
+				},
+				"price" : {
+					"text" : "$25.50—$75.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/rascal-flatts/9759/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Asgeir",
+				"venue" : "Lee's Palace",
+				"date" : "Wed. Oct 8",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Balance & Composure",
+					"href" : "http://www.collectiveconcerts.com/event/606633-balance-composure-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Sun 9/28",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "My Brightest Diamond",
+					"href" : "http://justshows.com/toronto/2014/09/20/my-brightest-diamond/10407/"
+				},
+				"venue" : {
+					"text" : "Drake Hotel",
+					"href" : "http://justshows.com/toronto/2014/09/20/my-brightest-diamond/10407/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/my-brightest-diamond/10407/"
+				},
+				"price" : {
+					"text" : "$15.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/my-brightest-diamond/10407/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "A Tribe Called Red",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Nov 7",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Uncle Acid & The Deadbeats",
+					"href" : "http://www.collectiveconcerts.com/event/616249-uncle-acid-deadbeats-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sun 9/28",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Matthew Good & Jay Baruchel",
+					"href" : "http://justshows.com/toronto/2014/09/20/matthew-good-and-jay-baruchel/11330/"
+				},
+				"venue" : {
+					"text" : "Massey Hall",
+					"href" : "http://justshows.com/toronto/2014/09/20/matthew-good-and-jay-baruchel/11330/"
+				},
+				"date" : {
+					"text" : "Sat Sep 20",
+					"href" : "http://justshows.com/toronto/2014/09/20/matthew-good-and-jay-baruchel/11330/"
+				},
+				"price" : {
+					"text" : "$39—$79 advance",
+					"href" : "http://justshows.com/toronto/2014/09/20/matthew-good-and-jay-baruchel/11330/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "The Augustines",
+				"venue" : "Garrison",
+				"date" : "Wed. Oct 8",
+				"price" : "$16.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Slow Magic",
+					"href" : "http://www.collectiveconcerts.com/event/617017-slow-magic-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Sun 9/28",
+				"price" : "$12.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Ty Segall",
+					"href" : "http://justshows.com/toronto/2014/09/21/ty-segall/10300/"
+				},
+				"venue" : {
+					"text" : "The Danforth Music Hall",
+					"href" : "http://justshows.com/toronto/2014/09/21/ty-segall/10300/"
+				},
+				"date" : {
+					"text" : "Sun Sep 21",
+					"href" : "http://justshows.com/toronto/2014/09/21/ty-segall/10300/"
+				},
+				"price" : {
+					"text" : "$28.50—$37.75 advance",
+					"href" : "http://justshows.com/toronto/2014/09/21/ty-segall/10300/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Austin Lucas",
+				"venue" : "Dance Cave",
+				"date" : "Thu. Oct 2",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Fink",
+					"href" : "http://www.collectiveconcerts.com/event/588797-fink-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Tue 9/30",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Sam Smith",
+					"href" : "http://justshows.com/toronto/2014/09/21/sam-smith/11299/"
+				},
+				"venue" : {
+					"text" : "The Guvernment",
+					"href" : "http://justshows.com/toronto/2014/09/21/sam-smith/11299/"
+				},
+				"date" : {
+					"text" : "Sun Sep 21",
+					"href" : "http://justshows.com/toronto/2014/09/21/sam-smith/11299/"
+				},
+				"price" : {
+					"text" : "$47.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/21/sam-smith/11299/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Balance & Composure",
+				"venue" : "Mod Club",
+				"date" : "Sun. Sep 28",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Lykke Li",
+					"href" : "http://www.collectiveconcerts.com/event/599935-lykke-li-toronto/"
+				},
+				"venue" : "Kool Haus",
+				"date" : "Tue 9/30",
+				"price" : "$35.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "The Weekend",
+					"href" : "http://justshows.com/toronto/2014/09/21/the-weekend/10568/"
+				},
+				"venue" : {
+					"text" : "Molson Ampitheatre",
+					"href" : "http://justshows.com/toronto/2014/09/21/the-weekend/10568/"
+				},
+				"date" : {
+					"text" : "Sun Sep 21",
+					"href" : "http://justshows.com/toronto/2014/09/21/the-weekend/10568/"
+				},
+				"price" : {
+					"text" : "$TBA",
+					"href" : "http://justshows.com/toronto/2014/09/21/the-weekend/10568/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Banks",
+				"venue" : "Phoenix",
+				"date" : "Fri. Oct 3",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Shovels & Rope",
+					"href" : "http://www.collectiveconcerts.com/event/634325-shovels-rope-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Tue 9/30",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Hiss Golden Menssenger",
+					"href" : "http://justshows.com/toronto/2014/09/21/hiss-golden-menssenger/10531/"
+				},
+				"venue" : {
+					"text" : "The Horseshoe Tavern",
+					"href" : "http://justshows.com/toronto/2014/09/21/hiss-golden-menssenger/10531/"
+				},
+				"date" : {
+					"text" : "Sun Sep 21",
+					"href" : "http://justshows.com/toronto/2014/09/21/hiss-golden-menssenger/10531/"
+				},
+				"price" : {
+					"text" : "$12 advance",
+					"href" : "http://justshows.com/toronto/2014/09/21/hiss-golden-menssenger/10531/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Bass Drum Of Death",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Oct 3",
+				"price" : "$14.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "EMA",
+					"href" : "http://www.collectiveconcerts.com/event/640871-ema-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Tue 9/30",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "GBH",
+					"href" : "http://justshows.com/toronto/2014/09/22/gbh/10901/"
+				},
+				"venue" : {
+					"text" : "Hard Luck",
+					"href" : "http://justshows.com/toronto/2014/09/22/gbh/10901/"
+				},
+				"date" : {
+					"text" : "Mon Sep 22",
+					"href" : "http://justshows.com/toronto/2014/09/22/gbh/10901/"
+				},
+				"price" : {
+					"text" : "$20 advance",
+					"href" : "http://justshows.com/toronto/2014/09/22/gbh/10901/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Beach House",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Oct 3",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Mirah",
+					"href" : "http://www.collectiveconcerts.com/event/616121-mirah-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Tue 9/30",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Fouseytube",
+					"href" : "http://justshows.com/toronto/2014/09/22/fouseytube/10655/"
+				},
+				"venue" : {
+					"text" : "Phoenix Concert Theatre",
+					"href" : "http://justshows.com/toronto/2014/09/22/fouseytube/10655/"
+				},
+				"date" : {
+					"text" : "Mon Sep 22",
+					"href" : "http://justshows.com/toronto/2014/09/22/fouseytube/10655/"
+				},
+				"price" : {
+					"text" : "$24.50—$39.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/22/fouseytube/10655/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Beach House",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Oct 4",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Christopher Owens",
+					"href" : "http://www.collectiveconcerts.com/event/627699-christopher-owens-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Wed 10/1",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Matisyahu",
+					"href" : "http://justshows.com/toronto/2014/09/23/matisyahu/10297/"
+				},
+				"venue" : {
+					"text" : "Phoenix Concert Theatre",
+					"href" : "http://justshows.com/toronto/2014/09/23/matisyahu/10297/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/matisyahu/10297/"
+				},
+				"price" : {
+					"text" : "$25 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/matisyahu/10297/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Bear's Den",
+				"venue" : "Mod Club",
+				"date" : "Fri. Nov 21",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Billy The Kid",
+					"href" : "http://www.collectiveconcerts.com/event/666215-billy-kid-toronto/"
+				},
+				"venue" : "The Cave",
+				"date" : "Wed 10/1",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Stromae",
+					"href" : "http://justshows.com/toronto/2014/09/23/stromae/9539/"
+				},
+				"venue" : {
+					"text" : "Sound Academy",
+					"href" : "http://justshows.com/toronto/2014/09/23/stromae/9539/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/stromae/9539/"
+				},
+				"price" : {
+					"text" : "$29.50—$45 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/stromae/9539/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Beartooth",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sun. Oct 5",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Constantines",
+					"href" : "http://www.collectiveconcerts.com/event/615963-constantines-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Thu 10/2",
+				"price" : "$25.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Sophia Danai",
+					"href" : "http://justshows.com/toronto/2014/09/23/sophia-danai/11829/"
+				},
+				"venue" : {
+					"text" : "The Cavern Bar",
+					"href" : "http://justshows.com/toronto/2014/09/23/sophia-danai/11829/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/sophia-danai/11829/"
+				},
+				"price" : {
+					"text" : "PWYC",
+					"href" : "http://justshows.com/toronto/2014/09/23/sophia-danai/11829/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Ben Frost",
+				"venue" : "Garrison",
+				"date" : "Fri. Oct 24",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Austin Lucas",
+					"href" : "http://www.collectiveconcerts.com/event/667165-austin-lucas-toronto/"
+				},
+				"venue" : "The Cave",
+				"date" : "Thu 10/2",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Rebecca Reeves, Chad Kirvac, Stephen Jones",
+					"href" : "http://justshows.com/toronto/2014/09/23/rebecca-reeves-chad-kirvac-stephen-jones/11942/"
+				},
+				"venue" : {
+					"text" : "Free Times Café",
+					"href" : "http://justshows.com/toronto/2014/09/23/rebecca-reeves-chad-kirvac-stephen-jones/11942/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/rebecca-reeves-chad-kirvac-stephen-jones/11942/"
+				},
+				"price" : {
+					"text" : "PWYC",
+					"href" : "http://justshows.com/toronto/2014/09/23/rebecca-reeves-chad-kirvac-stephen-jones/11942/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Bernhoft",
+				"venue" : "Mod Club",
+				"date" : "Fri. Nov 7",
+				"price" : "$21.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Tennis",
+					"href" : "http://www.collectiveconcerts.com/event/616123-tennis-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Fri 10/3",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Overkill",
+					"href" : "http://justshows.com/toronto/2014/09/23/overkill/9119/"
+				},
+				"venue" : {
+					"text" : "The Opera House",
+					"href" : "http://justshows.com/toronto/2014/09/23/overkill/9119/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/overkill/9119/"
+				},
+				"price" : {
+					"text" : "$30 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/overkill/9119/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Betty Who",
+				"venue" : "Mod Club",
+				"date" : "Mon. Oct 13",
+				"price" : "$19.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Constantines",
+					"href" : "http://www.collectiveconcerts.com/event/629823-constantines-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Fri 10/3",
+				"price" : "$25.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Vintage Trouble",
+					"href" : "http://justshows.com/toronto/2014/09/23/vintage-trouble/11482/"
+				},
+				"venue" : {
+					"text" : "Lee’s Palace",
+					"href" : "http://justshows.com/toronto/2014/09/23/vintage-trouble/11482/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/vintage-trouble/11482/"
+				},
+				"price" : {
+					"text" : "$15 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/vintage-trouble/11482/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Big Freedia",
+				"venue" : "Hoxton",
+				"date" : "Wed. Oct 8",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Ethan Johns",
+					"href" : "http://www.collectiveconcerts.com/event/640883-ethan-johns-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Fri 10/3",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Jann Arden",
+					"href" : "http://justshows.com/toronto/2014/09/23/jann-arden/9441/"
+				},
+				"venue" : {
+					"text" : "Massey Hall",
+					"href" : "http://justshows.com/toronto/2014/09/23/jann-arden/9441/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/jann-arden/9441/"
+				},
+				"price" : {
+					"text" : "$59.50—$99.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/jann-arden/9441/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Big K.R.I.T.",
+				"venue" : "Tattoo Rock Parlour",
+				"date" : "Fri. Oct 10",
+				"price" : "$27.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Beach House",
+					"href" : "http://www.collectiveconcerts.com/event/634417-beach-house-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 10/3",
+				"price" : "$32.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "DJ Windows 98",
+					"href" : "http://justshows.com/toronto/2014/09/23/dj-windows-98/11943/"
+				},
+				"venue" : {
+					"text" : "Coda",
+					"href" : "http://justshows.com/toronto/2014/09/23/dj-windows-98/11943/"
+				},
+				"date" : {
+					"text" : "Tue Sep 23",
+					"href" : "http://justshows.com/toronto/2014/09/23/dj-windows-98/11943/"
+				},
+				"price" : {
+					"text" : "$15 advance",
+					"href" : "http://justshows.com/toronto/2014/09/23/dj-windows-98/11943/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Big Wreck",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Oct 16",
+				"price" : "$37.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Bass Drum Of Death",
+					"href" : "http://www.collectiveconcerts.com/event/649561-bass-drum-death-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 10/3",
+				"price" : "$14.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Apache Dropout",
+					"href" : "http://justshows.com/toronto/2014/09/24/apache-dropout/11476/"
+				},
+				"venue" : {
+					"text" : "Smiling Buddha",
+					"href" : "http://justshows.com/toronto/2014/09/24/apache-dropout/11476/"
+				},
+				"date" : {
+					"text" : "Wed Sep 24",
+					"href" : "http://justshows.com/toronto/2014/09/24/apache-dropout/11476/"
+				},
+				"price" : {
+					"text" : "$TBA",
+					"href" : "http://justshows.com/toronto/2014/09/24/apache-dropout/11476/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Big Wreck",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Oct 17",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Coves",
+					"href" : "http://www.collectiveconcerts.com/event/660355-coves-toronto/"
+				},
+				"venue" : "The Silver Dollar",
+				"date" : "Fri 10/3",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Gary DiSalle + Kevin Closs",
+					"href" : "http://justshows.com/toronto/2014/09/24/gary-disalle-kevin-closs/11750/"
+				},
+				"venue" : {
+					"text" : "Free Times Café",
+					"href" : "http://justshows.com/toronto/2014/09/24/gary-disalle-kevin-closs/11750/"
+				},
+				"date" : {
+					"text" : "Wed Sep 24",
+					"href" : "http://justshows.com/toronto/2014/09/24/gary-disalle-kevin-closs/11750/"
+				},
+				"price" : {
+					"text" : "$10 door",
+					"href" : "http://justshows.com/toronto/2014/09/24/gary-disalle-kevin-closs/11750/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Billy The Kid",
+				"venue" : "Dance Cave",
+				"date" : "Wed. Oct 1",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Perfume Genius",
+					"href" : "http://www.collectiveconcerts.com/event/634983-perfume-genius-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Sat 10/4",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Black Lips",
+					"href" : "http://justshows.com/toronto/2014/09/25/black-lips/10075/"
+				},
+				"venue" : {
+					"text" : "Phoenix Concert Theatre",
+					"href" : "http://justshows.com/toronto/2014/09/25/black-lips/10075/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/black-lips/10075/"
+				},
+				"price" : {
+					"text" : "$23.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/black-lips/10075/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Biz Markie",
+				"venue" : "Rockpile West",
+				"date" : "Thu. Sep 11",
+				"price" : "POSTPONED",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Buke and Gase",
+					"href" : "http://www.collectiveconcerts.com/event/661557-buke-gase-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Sat 10/4",
+				"price" : "$12.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Single Mothers",
+					"href" : "http://justshows.com/toronto/2014/09/25/single-mothers/11369/"
+				},
+				"venue" : {
+					"text" : "The Horseshoe Tavern",
+					"href" : "http://justshows.com/toronto/2014/09/25/single-mothers/11369/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/single-mothers/11369/"
+				},
+				"price" : {
+					"text" : "$10.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/single-mothers/11369/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "The Black Dahlia Murder",
+				"venue" : "Opera House",
+				"date" : "Mon. Oct 6",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Beach House",
+					"href" : "http://www.collectiveconcerts.com/event/640265-beach-house-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 10/4",
+				"price" : "$32.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "The Drums",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-drums/10685/"
+				},
+				"venue" : {
+					"text" : "The Danforth Music Hall",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-drums/10685/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-drums/10685/"
+				},
+				"price" : {
+					"text" : "$17.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-drums/10685/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Black Lips",
+				"venue" : "Phoenix",
+				"date" : "Thu. Sep 25",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Code Orange Kids",
+					"href" : "http://www.collectiveconcerts.com/event/634893-code-orange-kids-twitching-toronto/"
+				},
+				"venue" : "Sneaky Dee's Concert Venue",
+				"date" : "Sun 10/5",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "The Dandy Warhols",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-dandy-warhols/10532/"
+				},
+				"venue" : {
+					"text" : "Lee’s Palace",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-dandy-warhols/10532/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-dandy-warhols/10532/"
+				},
+				"price" : {
+					"text" : "$33 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/the-dandy-warhols/10532/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Black Milk",
+				"venue" : "Tattoo Rock Parlour",
+				"date" : "Thu. Oct 23",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Current Swell",
+					"href" : "http://www.collectiveconcerts.com/event/686729-current-swell-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sun 10/5",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Reynolds Creek",
+					"href" : "http://justshows.com/toronto/2014/09/25/reynolds-creek/11830/"
+				},
+				"venue" : {
+					"text" : "The Cavern Bar",
+					"href" : "http://justshows.com/toronto/2014/09/25/reynolds-creek/11830/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/reynolds-creek/11830/"
+				},
+				"price" : {
+					"text" : "PWYC",
+					"href" : "http://justshows.com/toronto/2014/09/25/reynolds-creek/11830/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Blaze Bayley",
+				"venue" : "Hard Rock Cafe",
+				"date" : "Fri. Oct 17",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "JUNGLE",
+					"href" : "http://www.collectiveconcerts.com/event/616203-jungle-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Mon 10/6",
+				"price" : "$18.00 - $20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Hilltop Hoods",
+					"href" : "http://justshows.com/toronto/2014/09/25/hilltop-hoods/10902/"
+				},
+				"venue" : {
+					"text" : "The Hoxton",
+					"href" : "http://justshows.com/toronto/2014/09/25/hilltop-hoods/10902/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/hilltop-hoods/10902/"
+				},
+				"price" : {
+					"text" : "$21.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/hilltop-hoods/10902/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Blonde Redhead",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Nov 29",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "ODESZA",
+					"href" : "http://www.collectiveconcerts.com/event/609857-odesza-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Mon 10/6",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Cosi e Cosi",
+					"href" : "http://justshows.com/toronto/2014/09/25/cosi-e-cosi/11754/"
+				},
+				"venue" : {
+					"text" : "Double Double Land",
+					"href" : "http://justshows.com/toronto/2014/09/25/cosi-e-cosi/11754/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/cosi-e-cosi/11754/"
+				},
+				"price" : {
+					"text" : "$5 door",
+					"href" : "http://justshows.com/toronto/2014/09/25/cosi-e-cosi/11754/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Blushing Brides",
+				"venue" : "Rockpile East",
+				"date" : "Fri. Sep 19",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "We Are Scientists",
+					"href" : "http://www.collectiveconcerts.com/event/651625-we-are-scientists-surfer-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Mon 10/6",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : {
+					"text" : "Jennifer Castle",
+					"href" : "http://justshows.com/toronto/2014/09/25/jennifer-castle/11689/"
+				},
+				"venue" : {
+					"text" : "The Great Hall",
+					"href" : "http://justshows.com/toronto/2014/09/25/jennifer-castle/11689/"
+				},
+				"date" : {
+					"text" : "Thu Sep 25",
+					"href" : "http://justshows.com/toronto/2014/09/25/jennifer-castle/11689/"
+				},
+				"price" : {
+					"text" : "$12.50 advance",
+					"href" : "http://justshows.com/toronto/2014/09/25/jennifer-castle/11689/"
+				},
+				"api" : "just-shows"
+			}, {
+				"artist" : "Boban & Marko Markovic Orkestra",
+				"venue" : "Phoenix",
+				"date" : "Fri. Sep 26",
+				"price" : "$40.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Into It. Over It.",
+					"href" : "http://www.collectiveconcerts.com/event/647855-into-it-over-it-toronto/"
+				},
+				"venue" : "Sneaky Dee's Concert Venue",
+				"date" : "Tue 10/7",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Bombay Bicycle Club",
+				"venue" : "Kool Haus",
+				"date" : "Thu. Oct 16",
+				"price" : "$31.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "MXPX",
+					"href" : "http://www.collectiveconcerts.com/event/644733-mxpx-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Tue 10/7",
+				"price" : "$24.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Bondax",
+				"venue" : "Tattoo Rock Parlour",
+				"date" : "Sun. Oct 12",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Sharon Van Etten",
+					"href" : "http://www.collectiveconcerts.com/event/616133-sharon-van-etten-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Tue 10/7",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Bounce Bus Tour \n(ft. Will Sparks, more)",
+				"venue" : "Maison Mercer",
+				"date" : "Fri. Sep 19",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Pure Noise Records Tour Feat: State Champs",
+					"href" : "http://www.collectiveconcerts.com/event/658185-pure-noise-records-tour-feat-toronto/"
+				},
+				"venue" : "Hard Luck",
+				"date" : "Wed 10/8",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Boyce Avenue",
+				"venue" : "Sound Academy",
+				"date" : "Wed. Oct 29",
+				"price" : "$27.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Asgeir",
+					"href" : "http://www.collectiveconcerts.com/event/627691-asgeir-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Wed 10/8",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Brains",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Oct 30",
+				"price" : "$11.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Larry & His Flask",
+					"href" : "http://www.collectiveconcerts.com/event/616279-larry-his-flask-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Wed 10/8",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Brandee Younger + Matt \"Doc\" Dunn",
+				"venue" : "Music Gallery",
+				"date" : "Fri. Sep 26",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Markéta Irglová",
+					"href" : "http://www.collectiveconcerts.com/event/627719-marketa-irglova-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Thu 10/9",
+				"price" : "$26.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Brooklyn Invasion (ft. Ruste Juxx, more)",
+				"venue" : "Nocturne",
+				"date" : "Sat. Sep 20",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Delta Spirit",
+					"href" : "http://www.collectiveconcerts.com/event/609919-delta-spirit-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Thu 10/9",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Bruce Peninsula + Del Bel",
+				"venue" : "Polish Combatants Hall",
+				"date" : "Fri. Oct 3",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Jeremy Fisher",
+					"href" : "http://www.collectiveconcerts.com/event/651639-jeremy-fisher-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 10/9",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Buck 65",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Nov 21",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Cloud Nothings",
+					"href" : "http://www.collectiveconcerts.com/event/628701-cloud-nothings-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 10/10",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Buckcherry",
+				"venue" : "Phoenix",
+				"date" : "Wed. Oct 1",
+				"price" : "$36.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Kopecky Family Band",
+					"href" : "http://www.collectiveconcerts.com/event/609885-kopecky-family-band-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 10/11",
+				"price" : "$11.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Bug + Flowdan",
+				"venue" : "Coda",
+				"date" : "Thu. Nov 6",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Secret Chiefs 3",
+					"href" : "http://www.collectiveconcerts.com/event/609881-secret-chiefs-3-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 10/11",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Buke And Gase",
+				"venue" : "Garrison",
+				"date" : "Sat. Oct 4",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Gardens & Villa",
+					"href" : "http://www.collectiveconcerts.com/event/609927-gardens-villa-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Sat 10/11",
+				"price" : "$14.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Burger Records Caravan Of Stars",
+				"venue" : "Mod Club",
+				"date" : "Mon. Oct 27",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Cheap Girls",
+					"href" : "http://www.collectiveconcerts.com/event/667245-cheap-girls-toronto/"
+				},
+				"venue" : "The Cave",
+				"date" : "Sun 10/12",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Calabrese",
+				"venue" : "Rockpile East",
+				"date" : "Fri. Oct 10",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Betty Who",
+					"href" : "http://www.collectiveconcerts.com/event/634427-betty-who-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Mon 10/13",
+				"price" : "$19.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Calypso Rose + Kobo Town",
+				"venue" : "Revival",
+				"date" : "Sat. Sep 27",
+				"price" : "$30.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "King Tuff",
+					"href" : "http://www.collectiveconcerts.com/event/627693-king-tuff-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Tue 10/14",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Capital Cities",
+				"venue" : "Danforth Music Hall",
+				"date" : "Tue. Nov 4",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Wampire",
+					"href" : "http://www.collectiveconcerts.com/event/669321-wampire-toronto/"
+				},
+				"venue" : "The Silver Dollar",
+				"date" : "Tue 10/14",
+				"price" : "$10.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Capture The Crown",
+				"venue" : "Hard Luck Bar",
+				"date" : "Fri. Oct 3",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Steve Gunn",
+					"href" : "http://www.collectiveconcerts.com/event/640999-steve-gunn-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Wed 10/15",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Caribou",
+				"venue" : "Danforth Music Hall",
+				"date" : "Mon. Nov 24",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "White Fence",
+					"href" : "http://www.collectiveconcerts.com/event/597617-white-fence-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Thu 10/16",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Carnage",
+				"venue" : "Maison Mercer",
+				"date" : "Fri. Nov 7",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Wooden Sky",
+					"href" : "http://www.collectiveconcerts.com/event/647349-wooden-sky-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 10/17",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Cat Power",
+				"venue" : "Danforth Music Hall",
+				"date" : "Wed. Oct 8",
+				"price" : "$37.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Heavy Trash",
+					"href" : "http://www.collectiveconcerts.com/event/666221-heavy-trash-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 10/17",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Charli XCX",
+				"venue" : "Hoxton",
+				"date" : "Fri. Oct 10",
+				"price" : "$22.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Less Than Jake",
+					"href" : "http://www.collectiveconcerts.com/event/644993-less-than-jake-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Sat 10/18",
+				"price" : "$23.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Cheap Girls",
+				"venue" : "Dance Cave",
+				"date" : "Sun. Oct 12",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Wooden Sky",
+					"href" : "http://www.collectiveconcerts.com/event/647351-wooden-sky-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 10/18",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Christopher Owens",
+				"venue" : "Mod Club",
+				"date" : "Wed. Oct 1",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Smalls",
+					"href" : "http://www.collectiveconcerts.com/event/667095-smalls-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 10/18",
+				"price" : "$15",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Chromeo",
+				"venue" : "Kool Haus",
+				"date" : "Sat. Sep 27",
+				"price" : "$38.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Streetlight Manifesto",
+					"href" : "http://www.collectiveconcerts.com/event/581699-streetlight-manifesto-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Sun 10/19",
+				"price" : "$21.50 - $25.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Chuck Prophet & The Mission Express",
+				"venue" : "Horseshoe",
+				"date" : "Sun. Nov 9",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "We Were Promised Jetpacks",
+					"href" : "http://www.collectiveconcerts.com/event/627695-we-were-promised-jetpacks-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Sun 10/19",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Chuck Ragan",
+				"venue" : "Horseshoe",
+				"date" : "Mon. Dec 15",
+				"price" : "$20.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Iceage",
+					"href" : "http://www.collectiveconcerts.com/event/643279-iceage-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sun 10/19",
+				"price" : "$14.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Clean Bandit",
+				"venue" : "Danforth Music Hall \nMod Club",
+				"date" : "Mon. Sep 15",
+				"price" : "$19.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Motopony",
+					"href" : "http://www.collectiveconcerts.com/event/681553-motopony-toronto/"
+				},
+				"venue" : "The Cave",
+				"date" : "Mon 10/20",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Cloud Nothings",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Oct 10",
+				"price" : "$16.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Temples",
+					"href" : "http://www.collectiveconcerts.com/event/651645-temples-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Tue 10/21",
+				"price" : "$22.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Code Orange Kids",
+				"venue" : "Sneaky Dee's",
+				"date" : "Sun. Oct 5",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Pond",
+					"href" : "http://www.collectiveconcerts.com/event/651655-pond-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Tue 10/21",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Coheed And Cambria",
+				"venue" : "Kool Haus",
+				"date" : "Wed. Oct 1",
+				"price" : "$31.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Kina Grannis",
+					"href" : "http://www.collectiveconcerts.com/event/666279-kina-grannis-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Wed 10/22",
+				"price" : "$20-$30",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Cold Specks",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Dec 5",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Rah Rah",
+					"href" : "http://www.collectiveconcerts.com/event/681843-rah-rah-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 10/23",
+				"price" : "$11.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Colony House + Knox Hamilton",
+				"venue" : "Garrison",
+				"date" : "Wed. Nov 5",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Pallbearer",
+					"href" : "http://www.collectiveconcerts.com/event/627705-pallbearer-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 10/24",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Com Truise",
+				"venue" : "Coda",
+				"date" : "Thu. Sep 18",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Courtney Barnett",
+					"href" : "http://www.collectiveconcerts.com/event/616257-courtney-barnett-san-fermin-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 10/25",
+				"price" : "$17.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Constantines",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Oct 2",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Reigning Sound",
+					"href" : "http://www.collectiveconcerts.com/event/622555-reigning-sound-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 10/25",
+				"price" : "$16.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Constantines",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Oct 3",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Dum Dum Girls",
+					"href" : "http://www.collectiveconcerts.com/event/640897-dum-dum-girls-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Sun 10/26",
+				"price" : "$21.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Courtney Barnett + San Fermin",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Oct 25",
+				"price" : "$17.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Burger Records Caravan Of Stars",
+					"href" : "http://www.collectiveconcerts.com/event/635199-burger-records-caravan-stars-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Mon 10/27",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Coves",
+				"venue" : "Silver Dollar",
+				"date" : "Fri. Oct 3",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Ex Hex",
+					"href" : "http://www.collectiveconcerts.com/event/644217-ex-hex-speedy-ortiz-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Mon 10/27",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Current Swell",
+				"venue" : "Horseshoe",
+				"date" : "Sun. Oct 5",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "This Will Destroy You",
+					"href" : "http://www.collectiveconcerts.com/event/616141-this-will-destroy-you-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Tue 10/28",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Dandy Warhols",
+				"venue" : "Lee's Palace",
+				"date" : "Thu. Sep 25",
+				"price" : "$33.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Slowdive",
+					"href" : "http://www.collectiveconcerts.com/event/644173-slowdive-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Tue 10/28",
+				"price" : "$29.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dark Star Orchestra",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Nov 13",
+				"price" : "$34.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Boyce Avenue",
+					"href" : "http://www.collectiveconcerts.com/event/559111-boyce-avenue-toronto/"
+				},
+				"venue" : "Sound Academy",
+				"date" : "Wed 10/29",
+				"price" : "$25.50 - $39.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "David Bazan & Passenger String Quartet",
+				"venue" : "Mod Club/td>",
+				"date" : "Tue. Nov 4",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Royal Canoe",
+					"href" : "http://www.collectiveconcerts.com/event/651671-royal-canoe-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Wed 10/29",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dayglo Abortions",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sat. Sep 27",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Wytches",
+					"href" : "http://www.collectiveconcerts.com/event/663189-wytches-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Wed 10/29",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dayglo Abortions",
+				"venue" : "Rockpile West",
+				"date" : "Sun. Sep 28",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Pizza Underground",
+					"href" : "http://www.collectiveconcerts.com/event/666513-pizza-underground-har-mar-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Wed 10/29",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Deerhoof",
+				"venue" : "Lee's Palace",
+				"date" : "Thu. Nov 13",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Horrors",
+					"href" : "http://www.collectiveconcerts.com/event/571757-horrors-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Thu 10/30",
+				"price" : "$22.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Delta Spirit",
+				"venue" : "Lee's Palace",
+				"date" : "Thu. Oct 9",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Brains",
+					"href" : "http://www.collectiveconcerts.com/event/671313-brains-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 10/30",
+				"price" : "$11.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Digitalism",
+				"venue" : "Hoxton",
+				"date" : "Thu. Oct 23",
+				"price" : "$16.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Noah Gundersen",
+					"href" : "http://www.collectiveconcerts.com/event/634321-noah-gundersen-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 10/31",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dillon Francis",
+				"venue" : "Danforth Music Hall",
+				"date" : "Mon. Dec 1",
+				"price" : "$32.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Streets of Laredo",
+					"href" : "http://www.collectiveconcerts.com/event/681577-streets-laredo-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Sat 11/1",
+				"price" : "$10.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dirty Heads",
+				"venue" : "Phoenix",
+				"date" : "Wed. Oct 29",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Dry The River",
+					"href" : "http://www.collectiveconcerts.com/event/641007-dry-river-nathaniel-rateliff-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 11/1",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "D.O.A.",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sat. Oct 11",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Mounties",
+					"href" : "http://www.collectiveconcerts.com/event/681619-mounties-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 11/1",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dopapod + Consider The Source",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Sep 30",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Supersuckers",
+					"href" : "http://www.collectiveconcerts.com/event/681647-supersuckers-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sun 11/2",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Doug Paisley",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Nov 7",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "David Bazan + Passenger String Quartet",
+					"href" : "http://www.collectiveconcerts.com/event/647337-david-bazan-passenger-string-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Tue 11/4",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dr. Hook",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Sep 19",
+				"price" : "$29.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Allo Darlin'",
+					"href" : "http://www.collectiveconcerts.com/event/656161-allo-darlin-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Tue 11/4",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Drums",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Sep 25",
+				"price" : "$19.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "St. Paul & The Broken Bones",
+					"href" : "http://www.collectiveconcerts.com/event/616179-st-paul-broken-bones-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Tue 11/4",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dry The River",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Nov 1",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Kalle Mattson",
+					"href" : "http://www.collectiveconcerts.com/event/686755-kalle-mattson-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Thu 11/6",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Dum Dum Girls",
+				"venue" : "Opera House",
+				"date" : "Sun. Oct 26",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Kim Churchill",
+					"href" : "http://www.collectiveconcerts.com/event/678277-kim-churchill-toronto/"
+				},
+				"venue" : "The Great Hall",
+				"date" : "Fri 11/7",
+				"price" : "$18.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "EMA",
+				"venue" : "Drake Underground",
+				"date" : "Tue. Sep 30",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Doug Paisley",
+					"href" : "http://www.collectiveconcerts.com/event/666301-doug-paisley-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 11/7",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Emmure",
+				"venue" : "Opera House",
+				"date" : "Thu. Nov 27",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Twin Forks",
+					"href" : "http://www.collectiveconcerts.com/event/666323-twin-forks-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 11/7",
+				"price" : "$19.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Erasure",
+				"venue" : "Danforth Music Hall",
+				"date" : "Tue. Sep 30",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Sallie Ford",
+					"href" : "http://www.collectiveconcerts.com/event/678315-sallie-ford-toronto/"
+				},
+				"venue" : "The Great Hall",
+				"date" : "Sat 11/8",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Ethan Johns",
+				"venue" : "Drake Underground",
+				"date" : "Fri. Oct 2",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "TTNG (This Town Needs Guns)",
+					"href" : "http://www.collectiveconcerts.com/event/681679-ttng-this-town-needs-guns-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 11/8",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Ex Hex + Speedy Ortiz",
+				"venue" : "Horseshoe",
+				"date" : "Mon. Oct 27",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Chuck Prophet & The Mission Express",
+					"href" : "http://www.collectiveconcerts.com/event/671327-chuck-prophet-mission-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sun 11/9",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Fat White Family",
+				"venue" : "Hard Luck Bar",
+				"date" : "Wed. Oct 22",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Gruff Rhys",
+					"href" : "http://www.collectiveconcerts.com/event/592181-gruff-rhys-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Mon 11/10",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Fink",
+				"venue" : "Mod Club",
+				"date" : "Tue. Sep 30",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "TV on the Radio",
+					"href" : "http://www.collectiveconcerts.com/event/674819-tv-on-radio-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Wed 11/12",
+				"price" : "$29.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Floorplan (Robert Hood)",
+				"venue" : "Tattoo Rock Parlour",
+				"date" : "Fri. Sep 26",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Deerhoof",
+					"href" : "http://www.collectiveconcerts.com/event/681883-deerhoof-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Thu 11/13",
+				"price" : "$15.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Flosstradamus",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Dec 5",
+				"price" : "$35.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Harpoonist & The Axe Murderer",
+					"href" : "http://www.collectiveconcerts.com/event/686779-harpoonist-axe-murderer-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 11/13",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Flying Lotus",
+				"venue" : "Danforth Music Hall",
+				"date" : "Tue. Oct 21",
+				"price" : "$31.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "PUP",
+					"href" : "http://www.collectiveconcerts.com/event/686995-pup-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 11/15",
+				"price" : "$13.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "FouseyTUBE",
+				"venue" : "Phoenix",
+				"date" : "Mon. Sep 22",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Interpol",
+					"href" : "http://www.collectiveconcerts.com/event/631311-interpol-toronto/"
+				},
+				"venue" : "Kool Haus",
+				"date" : "Tue 11/18",
+				"price" : "$30.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Foxygen + Dub Thompson",
+				"venue" : "Mod Club",
+				"date" : "Tue. Oct 14",
+				"price" : "$19.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Quintron & Miss Pussycat",
+					"href" : "http://www.collectiveconcerts.com/event/640989-quintron-miss-pussycat-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Wed 11/19",
+				"price" : "$13.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "French Express Label Night (ft. Moon Boots, more)",
+				"venue" : "Hoxton",
+				"date" : "Fri. Sep 26",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Johnny Marr",
+					"href" : "http://www.collectiveconcerts.com/event/681611-johnny-marr-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Thu 11/20",
+				"price" : "$22.50 - $27.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Fucked Up",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Sep 26",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Bear's Den",
+					"href" : "http://www.collectiveconcerts.com/event/671365-bears-den-toronto/"
+				},
+				"venue" : "Virgin Mobile Mod Club",
+				"date" : "Fri 11/21",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Fucked Up",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Sep 27",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Sick of It All",
+					"href" : "http://www.collectiveconcerts.com/event/687617-sick-it-all-toronto/"
+				},
+				"venue" : "Hard Luck",
+				"date" : "Sun 11/23",
+				"price" : "$20.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Gardens & Villa",
+				"venue" : "Garrison",
+				"date" : "Sat. Oct 11",
+				"price" : "$14.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Caribou",
+					"href" : "http://www.collectiveconcerts.com/event/596587-caribou-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Mon 11/24",
+				"price" : "$20.00- $22.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "GBH",
+				"venue" : "Hard Luck Bar",
+				"date" : "Mon. Sep 22",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Amanda Palmer: The Art of Asking Book Tour",
+					"href" : "http://www.collectiveconcerts.com/event/679429-amanda-palmer-art-asking-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Tue 11/25",
+				"price" : "$18.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Gilby Clarke",
+				"venue" : "Rockpile West",
+				"date" : "Fri. Sep 19",
+				"price" : "$23.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "WET",
+					"href" : "http://www.collectiveconcerts.com/event/631119-wet-toronto/"
+				},
+				"venue" : "The Garrison",
+				"date" : "Wed 11/26",
+				"price" : "$12.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Glitch Mob",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Oct 24",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Allah-Las",
+					"href" : "http://www.collectiveconcerts.com/event/668113-allah-las-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 11/27",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Goapele",
+				"venue" : "Hoxton",
+				"date" : "Thu. Dec 9",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Skinny Puppy",
+					"href" : "http://www.collectiveconcerts.com/event/635005-skinny-puppy-vnv-nation-toronto/"
+				},
+				"venue" : "Sound Academy",
+				"date" : "Fri 11/28",
+				"price" : "$43.50 - $58.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Gob",
+				"venue" : "Adelaide Hall",
+				"date" : "Fri. Oct 24",
+				"price" : "$22.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Mirel Wagner",
+					"href" : "http://www.collectiveconcerts.com/event/660503-mirel-wagner-toronto/"
+				},
+				"venue" : "The Drake Hotel",
+				"date" : "Fri 11/28",
+				"price" : "$10.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Grade",
+				"venue" : "Sneaky Dee's",
+				"date" : "Fri. Sep 26",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Lagwagon",
+					"href" : "http://www.collectiveconcerts.com/event/678333-lagwagon-toronto/"
+				},
+				"venue" : "The Opera House",
+				"date" : "Fri 11/28",
+				"price" : "$26.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Grandmaster Flash + Afrika Bambaataa",
+				"venue" : "Phoenix",
+				"date" : "Sat. Sep 27",
+				"price" : "$35.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Strumbellas",
+					"href" : "http://www.collectiveconcerts.com/event/681713-strumbellas-toronto/"
+				},
+				"venue" : "Phoenix Concert Theatre",
+				"date" : "Fri 11/28",
+				"price" : "$17.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Gruff Rhys",
+				"venue" : "Horseshoe",
+				"date" : "Mon. Nov 10",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "NQ Arbuckle",
+					"href" : "http://www.collectiveconcerts.com/event/686743-nq-arbuckle-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 11/28",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Harpoonist & The Axe Murderer",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Nov 13",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Blonde Redhead",
+					"href" : "http://www.collectiveconcerts.com/event/641997-blonde-redhead-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 11/29",
+				"price" : "$21.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Heavy Trash",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Oct 17",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Strand Of Oaks",
+					"href" : "http://www.collectiveconcerts.com/event/571741-strand-oaks-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Mon 12/1",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Hellion",
+				"venue" : "Rockpile West",
+				"date" : "Fri. Oct 17",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Shakey Graves",
+					"href" : "http://www.collectiveconcerts.com/event/684711-shakey-graves-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Tue 12/2",
+				"price" : "$12.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Hercules And Love Affair",
+				"venue" : "Wrongbar",
+				"date" : "Sat. Oct 4",
+				"price" : "$24.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Cold Specks",
+					"href" : "http://www.collectiveconcerts.com/event/666239-cold-specks-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 12/5",
+				"price" : "$15.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Hilltop Hoods",
+				"venue" : "Hoxton",
+				"date" : "Thu. Sep 25",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "O-Town",
+					"href" : "http://www.collectiveconcerts.com/event/641539-o-town-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Mon 12/8",
+				"price" : "$26.50 - $39.55",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Hiss Golden Messenger",
+				"venue" : "Horseshoe",
+				"date" : "Sun. Sep 21",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Hold Steady",
+					"href" : "http://www.collectiveconcerts.com/event/681743-hold-steady-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Wed 12/10",
+				"price" : "$25.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Hold Steady",
+				"venue" : "Horseshoe",
+				"date" : "Wed. Dec 10",
+				"price" : "$25.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Hold Steady",
+					"href" : "http://www.collectiveconcerts.com/event/681753-hold-steady-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Thu 12/11",
+				"price" : "$25.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Hold Steady",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Dec 11",
+				"price" : "$25.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Timber Timbre",
+					"href" : "http://www.collectiveconcerts.com/event/686953-timber-timbre-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Thu 12/11",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Hold Steady",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Dec 12",
+				"price" : "$25.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Hold Steady",
+					"href" : "http://www.collectiveconcerts.com/event/681763-hold-steady-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Fri 12/12",
+				"price" : "$25.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Hold Steady",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Dec 13",
+				"price" : "$25.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Timber Timbre",
+					"href" : "http://www.collectiveconcerts.com/event/686957-timber-timbre-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Fri 12/12",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Hookers & Blow",
+				"venue" : "Rockpile West",
+				"date" : "Sat. Oct 11",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "The Hold Steady",
+					"href" : "http://www.collectiveconcerts.com/event/681779-hold-steady-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Sat 12/13",
+				"price" : "$25.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "The Horrors",
+				"venue" : "Opera House",
+				"date" : "Thu. Oct 30",
+				"price" : "CANCELLED REFUNDS",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Timber Timbre",
+					"href" : "http://www.collectiveconcerts.com/event/686961-timber-timbre-toronto/"
+				},
+				"venue" : "Lee's Palace",
+				"date" : "Sat 12/13",
+				"price" : "$20.00",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Iceage",
+				"venue" : "Horseshoe",
+				"date" : "Sun. Oct 19",
+				"price" : "$14.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Chuck Ragan",
+					"href" : "http://www.collectiveconcerts.com/event/681813-chuck-ragan-toronto/"
+				},
+				"venue" : "The Horseshoe Tavern",
+				"date" : "Mon 12/15",
+				"price" : "$20.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Interpol",
+				"venue" : "Kool Haus",
+				"date" : "Tue. Nov 18",
+				"price" : "$31.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : {
+					"text" : "Rural Alberta Advantage",
+					"href" : "http://www.collectiveconcerts.com/event/681905-rural-alberta-advantage-toronto/"
+				},
+				"venue" : "The Danforth Music Hall",
+				"date" : "Thu 12/18",
+				"price" : "$20.00 - $22.50",
+				"api" : "collective-concerts"
+			}, {
+				"artist" : "Into It. Over It.",
+				"venue" : "Sneaky Dee's",
+				"date" : "Tue. Oct 7",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Ital",
+				"venue" : "Double Double Land",
+				"date" : "Sat. Sep 27",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Jennifer Castle",
+				"venue" : "Great Hall",
+				"date" : "Thu. Sep 25",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Jeremy Fisher",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Oct 9",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Joey Cape",
+				"venue" : "Dance Cave",
+				"date" : "Sat. Sep 27",
+				"price" : "$16.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Johnny Marr",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Nov 20",
+				"price" : "$29.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Jon Bellion",
+				"venue" : "Adelaide Hall",
+				"date" : "Sun. Nov 2",
+				"price" : "$17.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Journeys Noise Tour (ft. Issues)",
+				"venue" : "Phoenix",
+				"date" : "Sat. Nov 8",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Julian Casablancas",
+				"venue" : "Kool Haus",
+				"date" : "Fri. Nov 21",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Jungle",
+				"venue" : "Danforth Music Hall",
+				"date" : "Mon. Oct 6",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kalle Mattson",
+				"venue" : "Drake Underground",
+				"date" : "Thu. Nov 6",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kate Boy",
+				"venue" : "Drake Underground",
+				"date" : "Wed. Oct 22",
+				"price" : "$14.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kaytranada",
+				"venue" : "Hoxton",
+				"date" : "Fri. Oct 17",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Keller Williams",
+				"venue" : "Phoenix",
+				"date" : "Thu. Sep 18",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kim Churchill",
+				"venue" : "Great Hall",
+				"date" : "Fri. Nov 7",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kina Grannis",
+				"venue" : "Danforth Music Hall",
+				"date" : "Wed. Oct 22",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "King Tuff",
+				"venue" : "Horseshoe",
+				"date" : "Tue. Oct 14",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kira Isabella",
+				"venue" : "Adelaide Hall",
+				"date" : "Thu. Nov 20",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kith & Kin Holiday Wassail",
+				"venue" : "Music Gallery",
+				"date" : "Sun. Dec 14",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Klingande",
+				"venue" : "Hoxton",
+				"date" : "Sat. Nov 1",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kodaline",
+				"venue" : "Sound Academy",
+				"date" : "Sat. Nov 1",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kool G Rap + AZ",
+				"venue" : "Rockpile",
+				"date" : "Wed. Dec 11",
+				"price" : "CANCELLED REFUNDS",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Kopecky Family Band",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Oct 11",
+				"price" : "$11.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Lagwagon",
+				"venue" : "Opera House",
+				"date" : "Fri. Nov 28",
+				"price" : "$27.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "LaLa Brooks & The Big Sound",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Sep 27",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Larry And His Flask",
+				"venue" : "Horseshoe",
+				"date" : "Wed. Oct 8",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Less Than Jake",
+				"venue" : "Opera House",
+				"date" : "Sat. Oct 18",
+				"price" : "$24.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Lewis Watson",
+				"venue" : "Mod Club",
+				"date" : "Sun. Oct 26",
+				"price" : "$16.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Lil Dicky",
+				"venue" : "Mod Club",
+				"date" : "Fri. Oct 10",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Lily Allen",
+				"venue" : "Sound Academy",
+				"date" : "Sun. Sep 28",
+				"price" : "$37.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "London Grammar",
+				"venue" : "Danforth Music Hall",
+				"date" : "Wed. Nov 19",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Lykke Li",
+				"venue" : "Kool Haus",
+				"date" : "Tue. Sep 30",
+				"price" : "$36.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mac DeMarco",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Nov 6",
+				"price" : "$28.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "ManifesTO: Transcension Art Show (ft. Mister Cartoon)",
+				"venue" : "Steam Whistle Brewery",
+				"date" : "Thu. Sep 18",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "ManifesTO: Rumble In Regent",
+				"venue" : "Daniels Spectrum",
+				"date" : "Fri. Sep 19",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "ManifesTO: The Summit (ft. Ryan Leslie, more)",
+				"venue" : "George Brown Waterfront Campus",
+				"date" : "Sun. Sep 21",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Marketa Irglova",
+				"venue" : "Mod Club",
+				"date" : "Thu. Oct 9",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Matisyahu",
+				"venue" : "Phoenix",
+				"date" : "Tue. Sep 23",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mayday Parade",
+				"venue" : "Phoenix",
+				"date" : "Wed. Oct 22",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Meatbodies + Purling Hiss",
+				"venue" : "Silver Dollar",
+				"date" : "Sat. Oct 25",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Merchandise + Lower",
+				"venue" : "Wrongbar",
+				"date" : "Wed. Oct 15",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mirel Wagner",
+				"venue" : "Drake Underground",
+				"date" : "Fri. Nov 28",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Misfits",
+				"venue" : "Rockpile East",
+				"date" : "Fri. Oct 3",
+				"price" : "$40.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Misfits",
+				"venue" : "Rockpile West",
+				"date" : "Sat. Oct 4",
+				"price" : "$40.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mirah",
+				"venue" : "Garrison",
+				"date" : "Tue. Sep 30",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "MØ",
+				"venue" : "Hoxton",
+				"date" : "Sun. Sep 28",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Modern Love Tour (ft. Andy Stott, Demdike Stare + Millie & Andrea)",
+				"venue" : "Adelaide Hall",
+				"date" : "Thu. Sep 18",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "moe.",
+				"venue" : "Mod Club",
+				"date" : "Tue. Sep 16",
+				"price" : "$29.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Moist",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Nov 22",
+				"price" : "$37.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Monster Mash Halloween",
+				"venue" : "Liberty Grand",
+				"date" : "Fri. Oct 31",
+				"price" : "$39.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mother Mother",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Nov 15",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Motopony",
+				"venue" : "Dance Cave",
+				"date" : "Mon. Oct 20",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mounties",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Nov 1",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Mutual Benefit",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Sep 20",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "MxPx",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Oct 7",
+				"price" : "$24.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "My Brightest Diamond",
+				"venue" : "Drake Underground",
+				"date" : "Sat. Sep 20",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "New Politics",
+				"venue" : "Opera House",
+				"date" : "Sun. Nov 23",
+				"price" : "$21.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Nick Santino",
+				"venue" : "Hard Luck Bar",
+				"date" : "Mon. Nov 10",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Nick Waterhouse",
+				"venue" : "Mod Club",
+				"date" : "Wed. Sep 17",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Nils Frahm + Dawn Of MIDI",
+				"venue" : "Adelaide Hall",
+				"date" : "Wed. Nov 19",
+				"price" : "$31.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Noah Gundersen",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Oct 31",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "OBN IIIs",
+				"venue" : "Smiling Buddha",
+				"date" : "Mon. Oct 20",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Odesza",
+				"venue" : "Mod Club",
+				"date" : "Mon. Oct 6",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Thee Oh Sees",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sun. Nov 23",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Orwells",
+				"venue" : "Mod Club",
+				"date" : "Sat. Oct 11",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "O-Town",
+				"venue" : "Lee's Palace",
+				"date" : "Mon. Dec 8",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Pallbearer",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Oct 24",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Perfume Genius",
+				"venue" : "Mod Club",
+				"date" : "Sat. Oct 4",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Peter And The Test Tube Babies",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sat. Nov 1",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Peter Hook & The Light",
+				"venue" : "Danforth Music Hall",
+				"date" : "Tue. Nov 11",
+				"price" : "$22.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Peter Tosh Tribute",
+				"venue" : "Rockpile West",
+				"date" : "Sat. Oct 18",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Pizza Underground + Har Mar Superstar",
+				"venue" : "Horseshoe",
+				"date" : "Wed. Oct 29",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Placebo",
+				"venue" : "Sound Academy",
+				"date" : "Wed. Oct 15",
+				"price" : "$32.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Pond",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Oct 21",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Presets",
+				"venue" : "Danforth Music Hall",
+				"date" : "Wed. Oct 29",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Pretty Reckless",
+				"venue" : "Sound Academy",
+				"date" : "Thu. Oct 30",
+				"price" : "$24.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Protest The Hero",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Dec 27",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Puddle Of Mudd",
+				"venue" : "Rockpile East",
+				"date" : "Sat. Nov 29",
+				"price" : "$35.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "PUP",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Nov 15",
+				"price" : "$13.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Queer Songbook Orchestra",
+				"venue" : "Music Gallery",
+				"date" : "Sun. Sep 21",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Quintron & Miss Pussycat",
+				"venue" : "Horseshoe",
+				"date" : "Wed. Nov 19",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "RAC",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Oct 30",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Rah Rah",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Oct 23",
+				"price" : "$11.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Ready Set",
+				"venue" : "Phoenix",
+				"date" : "Thu. Oct 30",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Real Friends",
+				"venue" : "Mod Club",
+				"date" : "Wed. Nov 26",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Real Witches' Ball Halloween",
+				"venue" : "Buddies In Bad Times",
+				"date" : "Fri. Oct 31",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Reigning Sound",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Oct 25",
+				"price" : "$16.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "RJD2",
+				"venue" : "Hoxton",
+				"date" : "Fri. Nov 14",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Royal Blood",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Oct 14",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Royal Canoe",
+				"venue" : "Lee's Palace",
+				"date" : "Wed. Oct 29",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Rub Out The Word + CCMC",
+				"venue" : "Music Gallery",
+				"date" : "Fri. Nov 7",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Rufus Du Sol",
+				"venue" : "Wrongbar",
+				"date" : "Sun. Oct 12",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Run The Jewels + Ratking",
+				"venue" : "Danforth Music Hall",
+				"date" : "Wed. Nov 26",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Rural Alberta Advantage",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Dec 18",
+				"price" : "$24.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Rusko",
+				"venue" : "Hoxton",
+				"date" : "Fri. Oct 3",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Russian Circles",
+				"venue" : "Lee's Palace",
+				"date" : "Mon. Sep 15",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Ryan Hemsworth",
+				"venue" : "Opera House",
+				"date" : "Sat. Nov 15",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Sallie Ford",
+				"venue" : "Great Hall",
+				"date" : "Sat. Nov 8",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "SBTRKT",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Oct 31",
+				"price" : "$27.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "SBTRKT",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sat. Nov 1",
+				"price" : "$27.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Sebastian Bach",
+				"venue" : "Phoenix",
+				"date" : "Sun. Dec 21",
+				"price" : "$39.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Secret Chiefs 3",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Oct 11",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Seether",
+				"venue" : "Phoenix",
+				"date" : "Tue. Oct 7",
+				"price" : "$29.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Shakey Graves",
+				"venue" : "Horseshoe",
+				"date" : "Tue. Dec 2",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Sharon Van Etten",
+				"venue" : "Opera House",
+				"date" : "Tue. Oct 7",
+				"price" : "$19.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Shivas",
+				"venue" : "Smiling Buddha",
+				"date" : "Sat. Oct 18",
+				"price" : "$8.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Shonen Knife",
+				"venue" : "Silver Dollar",
+				"date" : "Sat. Sep 20",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Shovels & Rope",
+				"venue" : "Phoenix",
+				"date" : "Tue. Sep 30",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Sick Of It All",
+				"venue" : "Hard Luck Bar",
+				"date" : "Sun. Nov 23",
+				"price" : "$20.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Single Mothers",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Sep 25",
+				"price" : "$10.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Skinny Puppy + VNV Nation",
+				"venue" : "Sound Academy",
+				"date" : "Fri. Nov 28",
+				"price" : "$45.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Slaughter And The Dogs",
+				"venue" : "Rockpile West",
+				"date" : "Fri. Oct 3",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Slow Club",
+				"venue" : "Horseshoe",
+				"date" : "Wed. Sep 24",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Slowdive",
+				"venue" : "Opera House \nDanforth Music Hall",
+				"date" : "Tue. Oct 28",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Slow Magic",
+				"venue" : "Garrison",
+				"date" : "Sun. Sep 28",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Smallpools + Magic Man",
+				"venue" : "Opera House",
+				"date" : "Fri. Oct 24",
+				"price" : "$21.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Snakehips",
+				"venue" : "Hoxton",
+				"date" : "Fri. Oct 24",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Snowgoons",
+				"venue" : "Rockpile West",
+				"date" : "Thu. Oct 16",
+				"price" : "$25.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Stars + Hey Rosetta!",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Feb 12",
+				"price" : "$37.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Stars + Hey Rosetta!",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Feb 13",
+				"price" : "$37.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "State Champs",
+				"venue" : "Hard Luck Bar",
+				"date" : "Wed. Oct 8",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Steve Gunn",
+				"venue" : "Drake Underground",
+				"date" : "Wed. Oct 15",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Still Boys + Zoo Owl",
+				"venue" : "Music Gallery",
+				"date" : "Sat. Nov 22",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "St. Lucia",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Nov 14",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "St. Paul & The Broken Bones",
+				"venue" : "Horseshoe",
+				"date" : "Tue. Nov 4",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Streetlight Manifesto",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sun. Oct 19",
+				"price" : "$27.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Streets Of Laredo",
+				"venue" : "Drake Underground",
+				"date" : "Sat. Nov 1",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Strumbellas",
+				"venue" : "Phoenix",
+				"date" : "Fri. Nov 28",
+				"price" : "$19.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Suffokate",
+				"venue" : "Rockpile West",
+				"date" : "Thu. Sep 25",
+				"price" : "$13.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Supersuckers",
+				"venue" : "Horseshoe",
+				"date" : "Sun. Nov 2",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tech N9ne",
+				"venue" : "Rockpile West",
+				"date" : "Fri. Sep 26",
+				"price" : "$45.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tech N9ne",
+				"venue" : "Rockpile East",
+				"date" : "Sat. Sep 27",
+				"price" : "$45.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Temples",
+				"venue" : "Mod Club",
+				"date" : "Tue. Oct 21",
+				"price" : "$22.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tennis",
+				"venue" : "Mod Club",
+				"date" : "Fri. Oct 3",
+				"price" : "$16.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "This Town Needs Guns",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Nov 8",
+				"price" : "$15.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "This Will Destroy You",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Oct 28",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Timber Timbre",
+				"venue" : "Lee's Palace",
+				"date" : "Thu. Dec 11",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Timber Timbre",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Dec 12",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Timber Timbre",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Dec 13",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tokimonsta",
+				"venue" : "Drake Underground",
+				"date" : "Thu. Oct 9",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tokyo Police Club + Said The Whale",
+				"venue" : "Danforth Music Hall",
+				"date" : "Thu. Dec 11",
+				"price" : "$26.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Toronto Roller Derby",
+				"venue" : "Downsview Park",
+				"date" : "Sat. Sep 27",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tory Lanez",
+				"venue" : "Drake Underground",
+				"date" : "Sun. Oct 19",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Tove Lo",
+				"venue" : "Phoenix",
+				"date" : "Thu. Oct 2",
+				"price" : "$22.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Trampled By Turtles",
+				"venue" : "Phoenix",
+				"date" : "Tue. Sep 16",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Transit",
+				"venue" : "Sneaky Dee's",
+				"date" : "Thu. Oct 28",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Trentemoller",
+				"venue" : "Mod Club",
+				"date" : "Thu. Nov 13",
+				"price" : "$23.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Trippy Turtle",
+				"venue" : "Hoxton",
+				"date" : "Fri. Sep 19",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Trust",
+				"venue" : "Danforth Music Hall",
+				"date" : "Fri. Oct 10",
+				"price" : "$24.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Turnover",
+				"venue" : "Sneaky Dee's",
+				"date" : "Sat. Sep 27",
+				"price" : "$13.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Turquoise Jeep",
+				"venue" : "Lee's Palace \nDance Cave",
+				"date" : "Mon. Sep 15",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "TV On The Radio",
+				"venue" : "Phoenix",
+				"date" : "Wed. Nov 12",
+				"price" : "$31.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Twin Forks",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Nov 7",
+				"price" : "$19.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Twin Peaks",
+				"venue" : "Hard Luck Bar",
+				"date" : "Tue. Oct 28",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Twin Shadow",
+				"venue" : "Phoenix",
+				"date" : "Sat. Sep 20",
+				"price" : "CANCELLED REFUNDS",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Ty Segall",
+				"venue" : "Danforth Music Hall",
+				"date" : "Sun. Sep 21",
+				"price" : "$21.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Uncle Acid & The Deadbeats",
+				"venue" : "Lee's Palace",
+				"date" : "Sun. Sep 28",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vance Joy (5pm doors)",
+				"venue" : "Phoenix",
+				"date" : "Sat. Nov 1",
+				"price" : "$23.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vance Joy (8pm doors)",
+				"venue" : "Phoenix",
+				"date" : "Sat. Nov 1",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vicetone",
+				"venue" : "Hoxton",
+				"date" : "Sat. Oct 4",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vinai",
+				"venue" : "Hoxton",
+				"date" : "Sat. Sep 20",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vintage Trouble",
+				"venue" : "Lee's Palace",
+				"date" : "Tue. Sep 23",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vixen",
+				"venue" : "Rockpile West",
+				"date" : "Fri. Oct 10",
+				"price" : "$37.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Vixen",
+				"venue" : "Rockpile East",
+				"date" : "Sat. Oct 11",
+				"price" : "$37.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Wakey! Wakey!",
+				"venue" : "Horseshoe",
+				"date" : "Sat. Sep 20",
+				"price" : "$13.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Wampire",
+				"venue" : "Silver Dollar",
+				"date" : "Tue. Oct 14",
+				"price" : "$10.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Wand",
+				"venue" : "Smiling Buddha",
+				"date" : "Fri. Sep 19",
+				"price" : "$8.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The War On Drugs",
+				"venue" : "Phoenix",
+				"date" : "Mon. Sep 15",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Watchmen",
+				"venue" : "Horseshoe",
+				"date" : "Thu. Sep 18",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Watchmen",
+				"venue" : "Horseshoe",
+				"date" : "Fri. Sep 19",
+				"price" : "SOLD OUT",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Watsky",
+				"venue" : "Danforth Music Hall",
+				"date" : "Mon. Nov 18",
+				"price" : "$23.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Waxahatchee",
+				"venue" : "Great Hall",
+				"date" : "Tue. Nov 4",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "We Are Scientists + Surfer Blood",
+				"venue" : "Horseshoe",
+				"date" : "Mon. Oct 6",
+				"price" : "$18.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "WET",
+				"venue" : "Garrison",
+				"date" : "Wed. Nov 26",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "We Were Promised Jetpacks",
+				"venue" : "Phoenix",
+				"date" : "Sun. Oct 19",
+				"price" : "$18.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Whirr",
+				"venue" : "Sneaky Dee's",
+				"date" : "Sat. Sep 20",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "White Fence",
+				"venue" : "Garrison",
+				"date" : "Thu. Oct 16",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Wild Feathers",
+				"venue" : "Lee's Palace",
+				"date" : "Wed. Nov 12",
+				"price" : "$20.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Woman's Hour",
+				"venue" : "Drake Underground",
+				"date" : "Mon. Oct 6",
+				"price" : "$13.25",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Wooden Sky",
+				"venue" : "Lee's Palace",
+				"date" : "Fri. Oct 17",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Wooden Sky",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Oct 18",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Wytches",
+				"venue" : "Garrison",
+				"date" : "Wed. Oct 29",
+				"price" : "$12.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX (Festival Pass)",
+				"venue" : "Music Gallery",
+				"date" : "Thu.-Sun. Oct 16-19",
+				"price" : "$40.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX: Laraaji",
+				"venue" : "Music Gallery",
+				"date" : "Thu. Oct 16",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX: Drums And Drones",
+				"venue" : "Music Gallery",
+				"date" : "Fri. Oct 17",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX: Julius Eastman Memorial Dinner",
+				"venue" : "Music Gallery",
+				"date" : "Sat. Oct 18",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX: DJ Ushka",
+				"venue" : "Mojo Lounge",
+				"date" : "Sat. Oct 18",
+				"price" : "$12.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "X-Avant IX: Lido Pimienta",
+				"venue" : "Music Gallery",
+				"date" : "Sun. Oct 19",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Xavier Wulf & Chris Travis",
+				"venue" : "Rockpile West",
+				"date" : "Sat. Sep 20",
+				"price" : "$20.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "YACHT + White Fang",
+				"venue" : "Hoxton",
+				"date" : "Fri. Sep 26",
+				"price" : "$14.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Yelle",
+				"venue" : "Mod Club",
+				"date" : "Wed. Oct 15",
+				"price" : "$23.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Yellowcard + Memphis May Fire",
+				"venue" : "Phoenix",
+				"date" : "Thu. Nov 6",
+				"price" : "$26.50",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "The Young",
+				"venue" : "Silver Dollar",
+				"date" : "Mon. Sep 15",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Young Rising Sons",
+				"venue" : "Tattoo Rock Parlour",
+				"date" : "Thu. Sep 18",
+				"price" : "OFF SALE",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Young Widows",
+				"venue" : "Garrison",
+				"date" : "Mon. Oct 20",
+				"price" : "$15.00",
+				"api" : "soundscapes-music"
+			}, {
+				"artist" : "Zeus",
+				"venue" : "Lee's Palace",
+				"date" : "Sat. Sep 27",
+				"price" : "$17.50",
+				"api" : "soundscapes-music"
+			}
+		],
+		"site" : [{
+				"image" : {
+					"text" : "",
+					"src" : "http://assets.justshows.net/graphics/justshows-toronto.gif?231616faef5421a3d47cf6a19e2ffdae",
+					"alt" : "Toronto Concerts | Just Shows: Toronto"
+				},
+				"api" : "just-shows"
+			}, {
+				"image" : {
+					"text" : "",
+					"src" : "http://www.soundscapesmusic.com/storage/banner/soundscapes-header.jpg",
+					"href" : "http://www.soundscapesmusic.com/",
+					"alt" : "Soundscapes"
+				},
+				"api" : "soundscapes-music"
+			}, {
+				"icon" : {
+					"src" : "https://cdn.ticketfly.com/wp-content/themes/collectiveconcerts/images/Collective-Concerts-Logo.png",
+					"href" : "http://www.collectiveconcerts.com/"
+				},
+				"api" : "collective-concerts"
+			}
+		]
+	},
+	"count" : 535
+}

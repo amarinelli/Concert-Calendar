@@ -20,3 +20,14 @@
    left: 1; 
    color: gold;
 }
+
+/* Fixed Header DataTables plugin */
+div.FixedHeader_Cloned th,
+div.FixedHeader_Cloned td {
+	background-color: white !important;
+}
+
+
+.nowrap {
+   white-space:nowrap;
+}

@@ -5,17 +5,20 @@ $(document).ready(function() {
 		"crossDomain":true,
 		"dataType":"jsonp",
 		"complete": function(){
-			$('#myTable').DataTable( {
+			var table = $('#myTable').DataTable( {
 				"order": [ 2, 'asc' ],
+				"orderClasses": true,
+				"lengthChange": true,
 				"lengthMenu": [ 10, 25, 50, 75, 100 ],
 				"columns": [ 
 					{"type": "string"},
-					{"type": "string"},
-					{"type": "date"},
+					{"type": "string", className: "nowrap"},
+					{"type": "date", className: "nowrap"},
 					{"type": "num-fmt"},
-					{"type": "string"}
+					{"type": "string", className: "nowrap"}
 				],
 				"paging": true,
+				"pagingType": "simple",
 				"autoWidth": true,
 				"scrollCollapse": true,
 				"responsive": true,
@@ -23,13 +26,15 @@ $(document).ready(function() {
 				"stateSaveParams": function (settings, data) {
 					data.search.search = "";
 				}
-			});     
+			});
+			new $.fn.dataTable.FixedHeader( table );
 		}
-	});		
+	});	
 });
 
 function CreateTable(element, index, array) {
-	var table = document.getElementById("tableBody");	
+	var table = document.getElementById("tableBody");
+	//if element.artist.text
 	if (typeof element.date === 'object') {
 		var date_raw = element.date.text;
 		var date = date_raw.substring(0,3) + ". " + date_raw.substring(4);
