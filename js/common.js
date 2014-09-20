@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	console.log('ready');
+	//var height = window.innerHeight;
 	$.ajax({
 		"url":"https://www.kimonolabs.com/api/6q5hyhqo?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
 		"crossDomain":true,
@@ -10,7 +11,7 @@ $(document).ready(function() {
 				"orderClasses": true,
 				"lengthChange": true,
 				"lengthMenu": [ 10, 25, 50, 75, 100 ],
-				"columns": [ 
+				"columns": [
 					{"type": "string"},
 					{"type": "string", className: "nowrap"},
 					{"type": "date", className: "nowrap"},
@@ -22,14 +23,14 @@ $(document).ready(function() {
 				"autoWidth": true,
 				"scrollCollapse": true,
 				"responsive": true,
-				"stateSave": true,
+				"stateSave": false,
 				"stateSaveParams": function (settings, data) {
 					data.search.search = "";
 				}
 			});
-			new $.fn.dataTable.FixedHeader( table );
+			new $.fn.dataTable.FixedHeader(table);			
 		}
-	});	
+	});
 });
 
 function CreateTable(element, index, array) {
@@ -42,13 +43,13 @@ function CreateTable(element, index, array) {
 		var date_raw = element.date;
 		lookup = {"1":"Jan", "2":"Feb", "3":"Mar","4":"Apr","5":"May","6":"Jun","7":"Jul","8":"Aug","9":"Sept","10":"Oct","11":"Nov","12":"Dec"};
 		var weekday = date_raw.substring(0,3);
-		var split_date = date_raw.split(" ");		
+		var split_date = date_raw.split(" ");
 		var month = lookup[split_date[1].split("/")[0]];;
 		var day = split_date[1].split("/")[1];
-		var date = weekday + ". " + month + " " + day;			
+		var date = weekday + ". " + month + " " + day;
 	} else {
 		var date = element.date;
-}	
+}
 	if ((/^ARTIST__/).test(element.artist) != true) {
 		var tr = document.createElement("TR");
 		var newcell1 = tr.insertCell(-1);
@@ -56,33 +57,33 @@ function CreateTable(element, index, array) {
 		var newcell3 = tr.insertCell(-1);
 		var newcell4 = tr.insertCell(-1);
 		var newcell5 = tr.insertCell(-1);
-		
+
 		if (element.api == "collective-concerts") {
-			newcell1.innerHTML=element.artist.text;		
-			newcell2.innerHTML=element.venue;		
-			newcell3.innerHTML=date;		
+			newcell1.innerHTML=element.artist.text;
+			newcell2.innerHTML=element.venue;
+			newcell3.innerHTML=date;
 			newcell4.innerHTML=element.price;
 		} else if (element.api == "just-shows") {
-			newcell1.innerHTML=element.artist.text;		
-			newcell2.innerHTML=element.venue.text;		
-			newcell3.innerHTML=date;		
+			newcell1.innerHTML=element.artist.text;
+			newcell2.innerHTML=element.venue.text;
+			newcell3.innerHTML=date;
 			newcell4.innerHTML=element.price.text;
-		} else {			
-			newcell1.innerHTML=element.artist;		
-			newcell2.innerHTML=element.venue;		
-			newcell3.innerHTML=date;		
-			newcell4.innerHTML=element.price;			
+		} else {
+			newcell1.innerHTML=element.artist;
+			newcell2.innerHTML=element.venue;
+			newcell3.innerHTML=date;
+			newcell4.innerHTML=element.price;
 		}
 		newcell5.innerHTML=element.api;
 	}
-	if (tr != null){ 
+	if (tr != null){
 		table.appendChild(tr);
 	}
 };
 
 function kimonoCallback(data) {
 	var results = data.results;
-	var collection = results.data;	
-	
+	var collection = results.data;
+
 	collection.forEach(CreateTable);
 }
