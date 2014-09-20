@@ -9,7 +9,7 @@ $(document).ready(function() {
 				"order": [ 2, 'asc' ],
 				"orderClasses": true,
 				"lengthChange": true,
-				"lengthMenu": [ 10, 25, 50, 75, 100 ],
+				"lengthMenu": [ 25, 50, 75, 100 ],
 				"columns": [ 
 					{"type": "string"},
 					{"type": "string", className: "nowrap"},
