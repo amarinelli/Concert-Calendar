@@ -1,6 +1,15 @@
+var modifySearchInput = 1;
+
 $(document).ready(function() {
 	console.log('ready');
-	//var height = window.innerHeight;
+
+	var mapOptions = {
+					center: { lat: 43.7000, lng: -79.4000},
+					zoom: 10
+	};
+	var map = new google.maps.Map(document.getElementById('map-canvas'),
+		mapOptions);
+
 	$.ajax({
 		"url":"https://www.kimonolabs.com/api/6q5hyhqo?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
 		"crossDomain":true,
@@ -13,11 +22,19 @@ $(document).ready(function() {
 				"lengthMenu": [ 10, 25, 50, 75, 100 ],
 				"columns": [
 					{"type": "string"},
-					{"type": "string", className: "nowrap"},
+					{"type": "string"},
 					{"type": "date", className: "nowrap"},
 					{"type": "num-fmt"},
 					{"type": "string", className: "nowrap"}
 				],
+				"language": {
+        	"searchPlaceholder": "",
+					"sSearch": "",
+					"infoEmpty": "Nothing to see...",
+					"infoFiltered": "",
+					"info": "Showing page _PAGE_ of _PAGES_",
+					"infoPostFix": "  [_MAX_ total records]"
+    		},
 				"paging": true,
 				"pagingType": "simple",
 				"autoWidth": true,
@@ -28,7 +45,18 @@ $(document).ready(function() {
 					data.search.search = "";
 				}
 			});
-			new $.fn.dataTable.FixedHeader(table);			
+			new $.fn.dataTable.FixedHeader(table);
+
+			if (modifySearchInput) {
+				var filterDivLbl = document.getElementById("myTable_filter").firstChild;
+				var searchInput = filterDivLbl.firstChild;
+				searchInput.setAttribute("tabindex","1");
+				searchInput.setAttribute("title","Search records");
+				searchInput.setAttribute("autofocus","");
+				searchInput.setAttribute("spellcheck","true");
+				searchInput.setAttribute("results","");
+				searchInput.setAttribute("placeholder","Filter records");
+			}
 		}
 	});
 });
