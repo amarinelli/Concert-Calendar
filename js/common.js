@@ -3,12 +3,12 @@ var modifySearchInput = 1;
 $(document).ready(function() {
 	console.log('ready');
 
-	// var mapOptions = {
-	// 				center: { lat: 43.7000, lng: -79.4000},
-	// 				zoom: 8
-	// };
-	// var map = new google.maps.Map(document.getElementById('map-canvas'),
-	// 	mapOptions);
+	var mapOptions = {
+					center: { lat: 43.7000, lng: -79.4000},
+					zoom: 10
+	};
+	var map = new google.maps.Map(document.getElementById('map-canvas'),
+		mapOptions);
 
 	$.ajax({
 		"url":"https://www.kimonolabs.com/api/6q5hyhqo?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
@@ -22,7 +22,7 @@ $(document).ready(function() {
 				"lengthMenu": [ 10, 25, 50, 75, 100 ],
 				"columns": [
 					{"type": "string"},
-					{"type": "string", className: "nowrap"},
+					{"type": "string"},
 					{"type": "date", className: "nowrap"},
 					{"type": "num-fmt"},
 					{"type": "string", className: "nowrap"}
