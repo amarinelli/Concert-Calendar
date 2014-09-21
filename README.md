@@ -18,4 +18,4 @@
 
 ## Contributing
 
-  * Anyone is welcome to contribute and make the site as functional as possible.
+  * Anyone is welcome to contribute to help make the site as functional as possible.
