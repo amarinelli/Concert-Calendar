@@ -1,8 +1,8 @@
-var modifySearchInput = true; 
+var modifySearchInput = true;
 
 $(document).ready(function() {
 	console.log('ready');
-		
+
 	var mapOptions = {
 					center: { lat: 43.7000, lng: -79.4000},
 					zoom: 10
@@ -16,10 +16,10 @@ $(document).ready(function() {
 		"dataType":"jsonp",
 		"complete": function(){
 			var table = $('#myTable').DataTable( {
-				"order": [ 2, 'asc' ],
+				"order": [ 2, 'asc' ], //order by date column
 				"orderClasses": true,
 				"lengthChange": true,
-				"lengthMenu": [ 10, 25, 50, 75, 100 ],				
+				"lengthMenu": [ 10, 25, 50, 75, 100 ],
 				"columns": [
 					{"type": "string"},
 					{"type": "string"},
@@ -46,7 +46,7 @@ $(document).ready(function() {
 					data.search.search = "";
 				}
 			});
-			new FixedHeader(table);			
+			new FixedHeader(table);
 
 			if (modifySearchInput) {
 				var filterDivLbl = document.getElementById("myTable_filter").firstChild;
@@ -58,9 +58,9 @@ $(document).ready(function() {
 				searchInput.setAttribute("spellcheck","true");
 				searchInput.setAttribute("results","");
 				searchInput.setAttribute("placeholder","Filter records");
-			}						
-		}		
-	});	
+			}
+		}
+	});
 });
 
 function CreateTable(element, index, array) {
@@ -104,6 +104,8 @@ function CreateTable(element, index, array) {
 			newcell3.innerHTML=date;
 			newcell4.innerHTML=element.price;
 		}
+		newcell2.setAttribute("onclick", "GoogleMapVenue(this.innerHTML)");
+		newcell2.setAttribute("style", "cursor: pointer;");
 		newcell5.innerHTML=element.api;
 	}
 	if (tr != null){
@@ -116,4 +118,9 @@ function kimonoCallback(data) {
 	var collection = results.data;
 
 	collection.forEach(CreateTable);
+}
+
+function GoogleMapVenue(clicked_id)
+{
+    console.log(clicked_id);
 }
