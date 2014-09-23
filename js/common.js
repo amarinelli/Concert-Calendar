@@ -1,8 +1,8 @@
-var modifySearchInput = 1;
+var modifySearchInput = true; 
 
 $(document).ready(function() {
 	console.log('ready');
-
+		
 	var mapOptions = {
 					center: { lat: 43.7000, lng: -79.4000},
 					zoom: 10
@@ -19,7 +19,7 @@ $(document).ready(function() {
 				"order": [ 2, 'asc' ],
 				"orderClasses": true,
 				"lengthChange": true,
-				"lengthMenu": [ 10, 25, 50, 75, 100 ],
+				"lengthMenu": [ 10, 25, 50, 75, 100 ],				
 				"columns": [
 					{"type": "string"},
 					{"type": "string"},
@@ -28,12 +28,13 @@ $(document).ready(function() {
 					{"type": "string", className: "nowrap"}
 				],
 				"language": {
-        	"searchPlaceholder": "",
+					"searchPlaceholder": "",
 					"sSearch": "",
 					"infoEmpty": "Nothing to see...",
 					"infoFiltered": "",
 					"info": "Showing page _PAGE_ of _PAGES_",
-					"infoPostFix": "  [_MAX_ total records]"
+					"infoPostFix": " &nbsp; [_MAX_ total records]",
+					"sLengthMenu": "_MENU_"
     		},
 				"paging": true,
 				"pagingType": "simple",
@@ -45,20 +46,21 @@ $(document).ready(function() {
 					data.search.search = "";
 				}
 			});
-			new $.fn.dataTable.FixedHeader(table);
+			new FixedHeader(table);			
 
 			if (modifySearchInput) {
 				var filterDivLbl = document.getElementById("myTable_filter").firstChild;
 				var searchInput = filterDivLbl.firstChild;
+				searchInput.setAttribute("style", "width:100%;");
 				searchInput.setAttribute("tabindex","1");
 				searchInput.setAttribute("title","Search records");
 				searchInput.setAttribute("autofocus","");
 				searchInput.setAttribute("spellcheck","true");
 				searchInput.setAttribute("results","");
 				searchInput.setAttribute("placeholder","Filter records");
-			}
-		}
-	});
+			}						
+		}		
+	});	
 });
 
 function CreateTable(element, index, array) {
