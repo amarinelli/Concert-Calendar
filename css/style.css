@@ -1,57 +1,85 @@
 html, body {
-   height: 100%;
-   z-index: 0;
- }
-
-body {
-  background: url('http://www.xpictonline.com/images/16654-images-article-concert-daoi-le-050709-la-japan-expo-2009.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
+
+#map-canvas {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.tableFloatingContainer {
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    right: 1px;
+    z-index: 50;
+    padding: 10px;
+    margin: 0px auto;
+    display: block;
+    box-shadow: 3px 3px 5px #888;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.titleFloatingContainer {
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    bottom: 0.5px;
+    left: 100px;
+    z-index: 50;
+    box-shadow: 3px 3px 5px #888;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
 
 .rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: right;
-  padding-top: 5px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: right;
+    padding-top: 5px;
 }
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover,
-.rating > span:hover ~ span {
-  color: transparent;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-   left: 1;
-   color: gold;
-}
+
+    .rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+    }
+
+        .rating > span:hover,
+        .rating > span:hover ~ span {
+            color: transparent;
+        }
+
+            .rating > span:hover:before,
+            .rating > span:hover ~ span:before {
+                content: "\2605";
+                position: absolute;
+                left: 1;
+                color: gold;
+            }
 
 /* Fixed Header DataTables plugin */
 div.FixedHeader_Cloned th,
 div.FixedHeader_Cloned td {
-	background-color: white !important;
+    background-color: white !important;
 }
 
 /* Table column no-wrapping styling*/
 .nowrap {
-   white-space:nowrap;
+    white-space: nowrap;
 }
 
 /*Bootatrap panel*/
 .panel-default {
-   opacity: 0.95;
-   margin-top:30px;
+    opacity: 0.95;
+    margin-top: 30px;
 }
 
 /* Mapping cover section*/
