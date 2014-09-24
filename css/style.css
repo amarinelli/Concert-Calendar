@@ -4,7 +4,7 @@ html, body {
  }
 
 body {
-  background: url('http://www.xpictonline.com/images/16654-images-article-concert-daoi-le-050709-la-japan-expo-2009.jpg');
+  background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -53,9 +53,3 @@ div.FixedHeader_Cloned td {
    opacity: 0.95;
    margin-top:30px;
 }
-
-/* Mapping cover section*/
-/*#map-canvas {
-  z-index: 0;
-  background: url('http://www.xpictonline.com/images/16654-images-article-concert-daoi-le-050709-la-japan-expo-2009.jpg');
-}*/

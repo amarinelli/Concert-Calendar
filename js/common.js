@@ -1,4 +1,4 @@
-var modifySearchInput = 1;
+var modifySearchInput = true;
 
 $(document).ready(function() {
 	console.log('ready');
@@ -16,7 +16,7 @@ $(document).ready(function() {
 		"dataType":"jsonp",
 		"complete": function(){
 			var table = $('#myTable').DataTable( {
-				"order": [ 2, 'asc' ],
+				"order": [ 2, 'asc' ], //order by date column
 				"orderClasses": true,
 				"lengthChange": true,
 				"lengthMenu": [ 10, 25, 50, 75, 100 ],
@@ -28,12 +28,13 @@ $(document).ready(function() {
 					{"type": "string", className: "nowrap"}
 				],
 				"language": {
-        	"searchPlaceholder": "",
+					"searchPlaceholder": "",
 					"sSearch": "",
 					"infoEmpty": "Nothing to see...",
 					"infoFiltered": "",
 					"info": "Showing page _PAGE_ of _PAGES_",
-					"infoPostFix": "  [_MAX_ total records]"
+					"infoPostFix": " &nbsp; [_MAX_ total records]",
+					"sLengthMenu": "_MENU_"
     		},
 				"paging": true,
 				"pagingType": "simple",
@@ -45,11 +46,12 @@ $(document).ready(function() {
 					data.search.search = "";
 				}
 			});
-			new $.fn.dataTable.FixedHeader(table);
+			new FixedHeader(table);
 
 			if (modifySearchInput) {
 				var filterDivLbl = document.getElementById("myTable_filter").firstChild;
 				var searchInput = filterDivLbl.firstChild;
+				searchInput.setAttribute("style", "width:100%;");
 				searchInput.setAttribute("tabindex","1");
 				searchInput.setAttribute("title","Search records");
 				searchInput.setAttribute("autofocus","");
@@ -102,6 +104,8 @@ function CreateTable(element, index, array) {
 			newcell3.innerHTML=date;
 			newcell4.innerHTML=element.price;
 		}
+		newcell2.setAttribute("onclick", "GoogleMapVenue(this.innerHTML)");
+		newcell2.setAttribute("style", "cursor: pointer;");
 		newcell5.innerHTML=element.api;
 	}
 	if (tr != null){
@@ -114,4 +118,9 @@ function kimonoCallback(data) {
 	var collection = results.data;
 
 	collection.forEach(CreateTable);
+}
+
+function GoogleMapVenue(clicked_id)
+{
+    console.log(clicked_id);
 }
