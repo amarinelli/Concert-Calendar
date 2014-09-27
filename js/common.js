@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-var modifySearchInput = 1;
-=======
 var modifySearchInput = true;
 var map;
 var geocoder;
@@ -8,18 +5,10 @@ var markers = [];
 var infowindow;
 var toronto;
 var table;
->>>>>>> origin/working_copy
 
 $(document).ready(function() {
 	console.log('ready');
 
-<<<<<<< HEAD
-	var mapOptions = {
-					center: { lat: 43.7000, lng: -79.4000},
-					zoom: 10
-	};
-	var map = new google.maps.Map(document.getElementById('map-canvas'),
-=======
 	toronto = new google.maps.LatLng(43.7000, -79.4000);
 
 	var mapOptions = {
@@ -30,7 +19,6 @@ $(document).ready(function() {
 	};
 	infowindow = new google.maps.InfoWindow();
 	map = new google.maps.Map(document.getElementById('map-canvas'),
->>>>>>> origin/working_copy
 		mapOptions);
 
 	$.ajax({
@@ -51,21 +39,13 @@ $(document).ready(function() {
 					{"type": "string", className: "nowrap"}
 				],
 				"language": {
-<<<<<<< HEAD
-        	"searchPlaceholder": "",
-=======
 					"searchPlaceholder": "",
->>>>>>> origin/working_copy
 					"sSearch": "",
 					"infoEmpty": "Nothing to see...",
 					"infoFiltered": "",
 					"info": "Showing page _PAGE_ of _PAGES_",
-<<<<<<< HEAD
-					"infoPostFix": "  [_MAX_ total records]"
-=======
 					"infoPostFix": " &nbsp; [_MAX_ total records]",
 					"sLengthMenu": "_MENU_"
->>>>>>> origin/working_copy
     		},
 				"paging": true,
 				"pagingType": "simple",
@@ -77,19 +57,12 @@ $(document).ready(function() {
 					data.search.search = "";
 				}
 			});
-<<<<<<< HEAD
-			new $.fn.dataTable.FixedHeader(table);
-=======
 			new FixedHeader(table);
->>>>>>> origin/working_copy
 
 			if (modifySearchInput) {
 				var filterDivLbl = document.getElementById("myTable_filter").firstChild;
 				var searchInput = filterDivLbl.firstChild;
-<<<<<<< HEAD
-=======
 				searchInput.setAttribute("style", "width:100%;");
->>>>>>> origin/working_copy
 				searchInput.setAttribute("tabindex","1");
 				searchInput.setAttribute("title","Search records");
 				searchInput.setAttribute("autofocus","");
