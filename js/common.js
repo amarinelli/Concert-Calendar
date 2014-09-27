@@ -1,13 +1,24 @@
 var modifySearchInput = true;
+var map;
+var geocoder;
+var markers = [];
+var infowindow;
+var toronto;
+var table;
 
 $(document).ready(function() {
 	console.log('ready');
 
+	toronto = new google.maps.LatLng(43.7000, -79.4000);
+
 	var mapOptions = {
-					center: { lat: 43.7000, lng: -79.4000},
+					center: toronto,
+					zoomControl: false,
+					caleControl: false,
 					zoom: 10
 	};
-	var map = new google.maps.Map(document.getElementById('map-canvas'),
+	infowindow = new google.maps.InfoWindow();
+	map = new google.maps.Map(document.getElementById('map-canvas'),
 		mapOptions);
 
 	$.ajax({
@@ -15,7 +26,7 @@ $(document).ready(function() {
 		"crossDomain":true,
 		"dataType":"jsonp",
 		"complete": function(){
-			var table = $('#myTable').DataTable( {
+			table = $('#myTable').DataTable( {
 				"order": [ 2, 'asc' ], //order by date column
 				"orderClasses": true,
 				"lengthChange": true,
@@ -63,6 +74,60 @@ $(document).ready(function() {
 	});
 });
 
+//Venue click event - Places search
+function GoogleMapVenue_click(venue_name) {
+	//focus map by increasing height
+	var mapFrame = document.getElementById("map-canvas");
+	if (mapFrame.style.height != '250px') {
+		mapFrame.style.height = '250px';
+		//refresh table headers
+		table.columns.adjust().draw();
+	}
+
+	if (venue_name.search(/Danforth Music/i) >=0) {
+		address = "The Music Hall";
+	} else {
+		address = venue_name;
+	}
+	var request = {
+    location: toronto,
+		name: address,
+    radius: 10000,
+  };
+	var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, PlacesCallback);
+}
+
+function PlacesCallback(results, status) {
+	for (var i = 0; i < markers.length; i++) {
+		markers[i].setMap(null);
+	}
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+		//place marker for first result only
+    createMarker(results[0]);
+  } else {alert("Cannot find venue...")}
+}
+
+function createMarker(place) {
+  var placeLoc = place.geometry.location;
+  var marker = new google.maps.Marker({
+    map: map,
+		animation: google.maps.Animation.DROP,
+    position: place.geometry.location
+  });
+	//zoom and position
+	map.setZoom(14);
+	map.setCenter(marker.getPosition());
+
+	markers.push(marker);
+
+  google.maps.event.addListener(marker, 'click', function() {
+				//open infowindow
+    infowindow.setContent('<div style="line-height:1.35;overflow:hidden;white-space:nowrap;">' + place.name + '</div>');
+    infowindow.open(map, this);
+  });
+}
+
 function CreateTable(element, index, array) {
 	var table = document.getElementById("tableBody");
 	//if element.artist.text
@@ -104,7 +169,7 @@ function CreateTable(element, index, array) {
 			newcell3.innerHTML=date;
 			newcell4.innerHTML=element.price;
 		}
-		newcell2.setAttribute("onclick", "GoogleMapVenue(this.innerHTML)");
+		newcell2.setAttribute("onclick", "GoogleMapVenue_click(this.innerHTML)");
 		newcell2.setAttribute("style", "cursor: pointer;");
 		newcell5.innerHTML=element.api;
 	}
@@ -118,9 +183,4 @@ function kimonoCallback(data) {
 	var collection = results.data;
 
 	collection.forEach(CreateTable);
-}
-
-function GoogleMapVenue(clicked_id)
-{
-    console.log(clicked_id);
 }
