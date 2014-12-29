@@ -22,7 +22,7 @@ $(document).ready(function() {
 		mapOptions);
 
 	$.ajax({
-		"url":"https://www.kimonolabs.com/api/6q5hyhqo?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
+		"url":"https://www.kimonolabs.com/api/69auren6?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
 		"crossDomain":true,
 		"dataType":"jsonp",
 		"complete": function(){
@@ -136,7 +136,7 @@ function CreateTable(element, index, array) {
 		var date = date_raw.substring(0,3) + ". " + date_raw.substring(4);
 	} else if (element.api == "collective-concerts") {
 		var date_raw = element.date;
-		lookup = {"1":"Jan", "2":"Feb", "3":"Mar","4":"Apr","5":"May","6":"Jun","7":"Jul","8":"Aug","9":"Sept","10":"Oct","11":"Nov","12":"Dec"};
+		lookup = {"1":"Jan","2":"Feb","3":"Mar","4":"Apr","5":"May","6":"Jun","7":"Jul","8":"Aug","9":"Sept","10":"Oct","11":"Nov","12":"Dec"};
 		var weekday = date_raw.substring(0,3);
 		var split_date = date_raw.split(" ");
 		var month = lookup[split_date[1].split("/")[0]];;
