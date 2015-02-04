@@ -22,7 +22,7 @@ $(document).ready(function() {
 		mapOptions);
 
 	$.ajax({
-		"url":"https://www.kimonolabs.com/api/69auren6?apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&callback=kimonoCallback",
+		"url":"https://www.kimonolabs.com/api/69auren6?&apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&kimmodify=1&callback=kimonoCallback",
 		"crossDomain":true,
 		"dataType":"jsonp",
 		"complete": function(){
