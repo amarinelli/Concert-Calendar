@@ -14,27 +14,9 @@ body {
   background-size: cover;
 }
 
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: right;
-  padding-top: 5px;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover,
-.rating > span:hover ~ span {
-  color: transparent;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-   left: 1;
-   color: gold;
+.map {
+  height: 175px;
+  overflow: scroll;
 }
 
 /* Fixed Header DataTables plugin */

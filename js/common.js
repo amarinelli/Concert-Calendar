@@ -22,10 +22,18 @@ $(document).ready(function() {
 		mapOptions);
 
 	$.ajax({
-		"url":"https://www.kimonolabs.com/api/69auren6?&apikey=dHMljbNpnmzYGGsQ7XfqOeIoxw9zGGQI&kimmodify=1&callback=kimonoCallback",
-		"crossDomain":true,
-		"dataType":"jsonp",
-		"complete": function(){
+		url:"https://www.kimonolabs.com/api/69auren6?&apikey=8mJuGzeHSesPIM93SJ19pXgAuLx9sxEE&kimmodify=1",
+		crossDomain:true,
+		dataType:"jsonp",
+		success: function(response) {
+			var results = response.results;
+			var collection = results.data;
+			collection.forEach(CreateTable);
+		},
+		error: function (xhr, status) {
+			console.log(status);
+		},
+		complete: function() {
 			table = $('#myTable').DataTable( {
 				"order": [ 2, 'asc' ], //order by date column
 				"orderClasses": true,
@@ -35,8 +43,7 @@ $(document).ready(function() {
 					{"type": "string"},
 					{"type": "string"},
 					{"type": "date", className: "nowrap"},
-					{"type": "num-fmt"},
-					{"type": "string", className: "nowrap"}
+					{"type": "num-fmt"}
 				],
 				"language": {
 					"searchPlaceholder": "",
@@ -72,17 +79,40 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	$("#map-canvas").mouseover(function() {
+		$(this).animate({
+			height: "250px"}, {
+				queue:false,
+				duration:600,
+				progress: function() {
+					table.columns.adjust().draw();
+				}
+			})
+	});
+
+	$("#map-canvas").mouseout(function() {
+		$(this).animate({
+			height: "175px"}, {
+				queue:false,
+				duration:600,
+				progress: function() {
+					table.columns.adjust().draw();
+				}
+			})
+	});
+
 });
 
 //Venue click event - Places search
 function GoogleMapVenue_click(venue_name) {
 	//focus map by increasing height
-	var mapFrame = document.getElementById("map-canvas");
-	if (mapFrame.style.height != '250px') {
-		mapFrame.style.height = '250px';
-		//refresh table headers
-		table.columns.adjust().draw();
-	}
+	// var mapFrame = document.getElementById("map-canvas");
+	// if (mapFrame.style.height != '250px') {
+	// 	mapFrame.style.height = '250px';
+	// 	//refresh table headers
+	// 	table.columns.adjust().draw();
+	// }
 
 	if (venue_name.search(/Danforth Music/i) >=0) {
 		address = "The Music Hall";
@@ -144,43 +174,23 @@ function CreateTable(element, index, array) {
 		var date = weekday + ". " + month + " " + day;
 	} else {
 		var date = element.date;
-}
-	if ((/^ARTIST__/).test(element.artist) != true) {
-		var tr = document.createElement("TR");
-		var newcell1 = tr.insertCell(-1);
-		var newcell2 = tr.insertCell(-1);
-		var newcell3 = tr.insertCell(-1);
-		var newcell4 = tr.insertCell(-1);
-		var newcell5 = tr.insertCell(-1);
-
-		if (element.api == "collective-concerts") {
-			newcell1.innerHTML=element.artist.text;
-			newcell2.innerHTML=element.venue;
-			newcell3.innerHTML=date;
-			newcell4.innerHTML=element.price;
-		} else if (element.api == "just-shows") {
-			newcell1.innerHTML=element.artist.text;
-			newcell2.innerHTML=element.venue.text;
-			newcell3.innerHTML=date;
-			newcell4.innerHTML=element.price.text;
-		} else {
-			newcell1.innerHTML=element.artist;
-			newcell2.innerHTML=element.venue;
-			newcell3.innerHTML=date;
-			newcell4.innerHTML=element.price;
-		}
-		newcell2.setAttribute("onclick", "GoogleMapVenue_click(this.innerHTML)");
-		newcell2.setAttribute("style", "cursor: pointer;");
-		newcell5.innerHTML=element.api;
 	}
+
+	var tr = document.createElement("TR");
+	var newcell1 = tr.insertCell(-1);
+	var newcell2 = tr.insertCell(-1);
+	var newcell3 = tr.insertCell(-1);
+	var newcell4 = tr.insertCell(-1);
+
+	newcell1.innerHTML=element.artist;
+	newcell2.innerHTML=element.venue;
+	newcell3.innerHTML=date;
+	newcell4.innerHTML=element.price;
+
+	newcell2.setAttribute("onclick", "GoogleMapVenue_click(this.innerHTML)");
+	newcell2.setAttribute("style", "cursor: pointer;");
+
 	if (tr != null){
 		table.appendChild(tr);
 	}
 };
-
-function kimonoCallback(data) {
-	var results = data.results;
-	var collection = results.data;
-
-	collection.forEach(CreateTable);
-}
