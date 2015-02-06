@@ -4,7 +4,7 @@ html, body {
  }
 
 body {
-  background: url('http://www.xpictonline.com/images/16654-images-article-concert-daoi-le-050709-la-japan-expo-2009.jpg');
+  background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -14,33 +14,16 @@ body {
   background-size: cover;
 }
 
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  text-align: right;
-  padding-top: 5px;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover,
-.rating > span:hover ~ span {
-  color: transparent;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-   left: 1;
-   color: gold;
+#map-canvas {
+  height: 200px;
+  overflow: scroll;
+  border-radius: 10px;
 }
 
 /* Fixed Header DataTables plugin */
 div.FixedHeader_Cloned th,
 div.FixedHeader_Cloned td {
-	background-color: white !important;
+  background-color: white !important;
 }
 
 /* Table column no-wrapping styling*/
@@ -48,14 +31,8 @@ div.FixedHeader_Cloned td {
    white-space:nowrap;
 }
 
-/*Bootatrap panel*/
-.panel-default {
+/*Bootstrap panel*/
+.panel-primary {
    opacity: 0.95;
    margin-top:30px;
 }
-
-/* Mapping cover section*/
-/*#map-canvas {
-  z-index: 0;
-  background: url('http://www.xpictonline.com/images/16654-images-article-concert-daoi-le-050709-la-japan-expo-2009.jpg');
-}*/
