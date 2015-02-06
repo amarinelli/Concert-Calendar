@@ -14,15 +14,16 @@ body {
   background-size: cover;
 }
 
-.map {
-  height: 175px;
+#map-canvas {
+  height: 200px;
   overflow: scroll;
+  border-radius: 10px;
 }
 
 /* Fixed Header DataTables plugin */
 div.FixedHeader_Cloned th,
 div.FixedHeader_Cloned td {
-	background-color: white !important;
+  background-color: white !important;
 }
 
 /* Table column no-wrapping styling*/
@@ -30,8 +31,8 @@ div.FixedHeader_Cloned td {
    white-space:nowrap;
 }
 
-/*Bootatrap panel*/
-.panel-default {
+/*Bootstrap panel*/
+.panel-primary {
    opacity: 0.95;
    margin-top:30px;
 }
