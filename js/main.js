@@ -1,12 +1,9 @@
-var modifySearchInput = true;
 var map;
-var geocoder;
+var infowindow;
 var markers = [];
 var address;
-var infowindow;
 var toronto;
 var table;
-var FH;
 
 $(document).ready(function() {
 	toastr.options = {
@@ -69,11 +66,7 @@ $(document).ready(function() {
 				$("#map-canvas").animate({
 					height: "300px"}, {
 						queue: false,
-						duration: 500,
-						progress: function() {
-							return;
-							// FH.fnPosition();
-						}
+						duration: 500
 				});
 				window.setTimeout(function() {
 					map.panTo(currentCenter);
@@ -83,11 +76,7 @@ $(document).ready(function() {
 				$("#map-canvas").animate({
 					height: "200px"}, {
 						queue: false,
-						duration: 500,
-						progress: function() {
-							return;
-							// FH.fnPosition();
-						}
+						duration: 500
 				});
 			}
 		});
@@ -98,17 +87,35 @@ $(document).ready(function() {
 	});
 
 	$.ajax({
-		url:"./kimonoData.json",
+		url:"./data/kimonoData.min.json",
 		dataType:"json",
 		error: function (xhr, status) {
 			console.log(status);
 		},
 		success: CreateTable,
-		complete: function() {
-			return;
+		complete: function(response) {
+			var day = response.responseJSON.results.site[0].updateDate;
+			var time = response.responseJSON.results.site[0].updateTime;
+			var sourceSite = response.responseJSON.results.site[0].source.alt;
+			var sourceUrl = response.responseJSON.results.site[0].source.href;
+
+			var replacements = {
+				"%DAY%": day,
+				"%TIME%": time,
+				"%SITE%": sourceSite,
+				"%URL%": sourceUrl
+			}
+
+			str = "<code>Last Updated: %DAY% @ %TIME% by</code><a class='update-link' href='%URL%'> %SITE%</a>";
+
+			updateString = str.replace(/%\w+%/g, function(all) {
+				return replacements[all] || all;
+			});
+
+			$("#update-header").html(updateString);
+			$("#update-footer").html(updateString);
 		}
 	});
-
 }); // end of ready
 
 function CreateTable(response) {
@@ -124,7 +131,7 @@ function CreateTable(response) {
 		"columns": [
 			{type: "string", data: "artist"},
 			{type: "string", data: "venue"},
-			{type: "date", className: "nowrap", data: "date"},
+			{type: "date", data: "date"},
 			{type: "num-fmt", data: "price"}
 		],
 		"language": {
@@ -133,7 +140,7 @@ function CreateTable(response) {
 			"infoEmpty": "Nothing to see...",
 			"infoFiltered": "",
 			"info": "Showing page _PAGE_ of _PAGES_",
-			"infoPostFix": " &nbsp; [_MAX_ total records]",
+			"infoPostFix": " (_MAX_ total records)",
 			"sLengthMenu": "_MENU_"
 		},
 		"paging": true,
@@ -147,16 +154,14 @@ function CreateTable(response) {
 		}
 	});
 
-	if (modifySearchInput) {
-		var filterDivLbl = document.getElementById("myTable_filter").firstChild;
-		var searchInput = filterDivLbl.firstChild;
-		searchInput.setAttribute("tabindex","1");
-		searchInput.setAttribute("title","Search records");
-		searchInput.setAttribute("autofocus","");
-		searchInput.setAttribute("spellcheck","true");
-		searchInput.setAttribute("results","");
-		searchInput.setAttribute("placeholder","Filter records");
-	}
+	var filterDivLbl = document.getElementById("myTable_filter").firstChild;
+	var searchInput = filterDivLbl.firstChild;
+	searchInput.setAttribute("id","search_table");
+	searchInput.setAttribute("type","text");
+	searchInput.setAttribute("tabindex","0");
+	searchInput.setAttribute("title","Live filter records");
+	searchInput.setAttribute("autofocus","");
+	searchInput.setAttribute("placeholder","Filter shows");
 }
 
 //Venue click event - Places search
@@ -191,7 +196,7 @@ function PlacesCallback(results, status) {
 		}
 
   } else {
-		toastr.warning("Click to search it", address + " not found");
+		toastr.warning("<div class='toast-extra'>Click to search it</div>", address + " not found");
 	}
 }
 
@@ -209,10 +214,11 @@ function createMarker(place) {
 	markers.push(marker);
 
   google.maps.event.addListener(marker, 'click', function() {
-    infowindow.setContent("<div style='line-height:1.35;overflow:visible;white-space:nowrap;'>"
+    infowindow.setContent("<div class='info-window'>"
 			+ "<b>" + place.name + "</b>"
 			+ "<br>" + place.vicinity
-			+ '</div>');
+			+ "</div>");
+
     infowindow.open(map, this);
   });
 
@@ -224,6 +230,18 @@ function createMarker(place) {
 }
 
 function VenueSearch() {
-	searchUrl = "http://google.ca/search?q=toronto+" + address;
-	window.open(searchUrl, "_blank");
+	var searchUrl = "http://google.ca/search?q=toronto+" + address;
+	window.open(searchUrl);
 }
+
+$(function(){
+		$('html').keydown(function(e){
+			if (e.which == 37) {
+				$("#myTable_previous").click()
+			} else if (e.which == 39) {
+				$("#myTable_next").click()
+			} else if (e.which == 27) {
+				$("#search_table").val("");
+			}
+		});
+});

@@ -11,7 +11,7 @@ function transform(data) {
   shows = data.results.data;
   shows.forEach(function(show){
     venue = show.venue;
-    show.venue = "<div onclick='GoogleMapVenue_click(this.innerHTML)' style='cursor: pointer; color: rgb(62, 142, 232)'>"
+    show.venue = "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>"
       + venue
       + "</div>";
   });
