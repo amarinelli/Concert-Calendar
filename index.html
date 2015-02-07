@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8"/>
+	<meta charset="UTF-8">
+	<base target="_blank">
+	<meta http-equiv="Cache-control" content="public">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 	<title>Toronto Concert Calendar</title>
+
+	<link rel="icon" type="image/png" href="images/favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.3/css/dataTables.responsive.css">
-	<!-- <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/fixedheader/2.1.2/css/dataTables.fixedHeader.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="//datatables.net/download/build/dataTables.fixedHeader.nightly.css?_=89fcfc0e0d5de89565e85821f69e2a4f"> -->
-	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 
 	<script type="text/javascript" charset="utf8" src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&v=3.exp&key=AIzaSyBzTvb0f2AdZINFcBNPGYQ2bWu35-BKrKA"></script>
 	<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -21,16 +23,17 @@
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-	<!-- <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/fixedheader/2.1.2/js/dataTables.fixedHeader.min.js"></script> -->
-	<!-- <script type="text/javascript" charset="utf8" src="//datatables.net/download/build/dataTables.fixedHeader.nightly.min.js?_=5c4cbf40ee0707032ffaf5477034b0ca"></script> -->
 
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/main.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
       <div class="row-fluid">
 				<div class="panel panel-primary">
-					<div class="panel-heading"> <strong><i class="fa fa-music"></i> Toronto Concert Listings</strong>
+					<div class="panel-heading">
+						<span class="glyphicon glyphicon-music" style="font-size: 15px;" aria-hidden="true"></span>
+						<strong class="panel-title"> Toronto Concert Listings</strong>
+						<b id="update-header" class="pull-right"></b>
 					</div>
 					<div class="panel-body">
 						<div id="map-canvas"></div>
@@ -48,13 +51,18 @@
 							<tbody id="tableBody"></tbody>
 						</table>
 					</div>
+					<div class="footer">
+						<div class="panel-footer">
+							<div id="update-footer"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="js\jquery.visible.js"></script>
-		<script type="text/javascript" charset="utf8" src="js\jquery.smooth-scroll.js"></script>
+		<script type="text/javascript" charset="utf8" src="js\jquery.visible.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="js\jquery.smooth-scroll.min.js"></script>
 
 	</body>
 </html>

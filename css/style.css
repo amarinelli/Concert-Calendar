@@ -12,6 +12,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  line-height: 1.0;
 }
 
 #map-canvas {
@@ -20,10 +21,54 @@ body {
   border-radius: 10px;
 }
 
-/* Fixed Header DataTables plugin */
-div.FixedHeader_Cloned th,
-div.FixedHeader_Cloned td {
-  background-color: white !important;
+.info-window {
+  line-height:1.35;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.panel-title {
+  font-size: 1.5em;
+}
+
+.panel-primary>.panel-heading {
+  color: #fff;
+  background-color: #84AED2;
+}
+
+.venue-link {
+  cursor: pointer;
+  color: #84AED2;
+}
+
+#update-header {
+  font-size: 10px;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 625px) {
+    #update-header {
+      display: none;
+    }
+    .footer {
+      display: inline;
+    }
+}
+
+@media screen and (min-width: 625px) {
+    #update-header {
+      display: inline;
+    }
+    .footer {
+      display: none;
+    }
+}
+
+.toast-extra {
+  line-height:1.35;
+  color: blue;
+  font-style: italic;
+  padding-top: 5px;
 }
 
 /* Table column no-wrapping styling*/
