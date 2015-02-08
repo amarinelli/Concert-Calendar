@@ -87,8 +87,8 @@ $(document).ready(function() {
 	});
 
 	$.ajax({
-		url:"./data/kimonoData.min.json",
-		dataType:"json",
+		url:"https://www.kimonolabs.com/api/69auren6?&apikey=8mJuGzeHSesPIM93SJ19pXgAuLx9sxEE&kimmodify=1",
+		dataType:"jsonp",
 		error: function (xhr, status) {
 			console.log(status);
 		},
