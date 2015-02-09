@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Music shows for Toronto">
+	<meta name="keywords" content="toronto, concerts, music, shows, events">
 	<base target="_blank">
 	<meta http-equiv="Cache-control" content="public">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.3/css/dataTables.responsive.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.min.css">
 
 	<script type="text/javascript" charset="utf8" src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&v=3.exp&key=AIzaSyBzTvb0f2AdZINFcBNPGYQ2bWu35-BKrKA"></script>
 	<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -24,11 +26,11 @@
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.js"></script>
 
-	<script type="text/javascript" src="js/main.min.js"></script>
+	<script type="text/javascript" src="scripts/main.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
-      <div class="row-fluid">
+			<div class="row-fluid">
 				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<span class="glyphicon glyphicon-music" style="font-size: 15px;" aria-hidden="true"></span>
@@ -39,7 +41,7 @@
 						<div id="map-canvas"></div>
 					</div>
 					<div class="panel-body">
-						<table id='myTable' class='table table-striped table-hover dt-responsive dataTable no-footer collapsed dtr-inline' cellspacing="0" width="100%">
+						<table id='myTable' style="display:none;" class='table table-striped table-hover dt-responsive dataTable no-footer collapsed dtr-inline' cellspacing="0" width="100%">
 							<thead>
 								<tr>
 									<th><u><strong>ARTIST</strong></u></th>
@@ -50,6 +52,7 @@
 							</thead>
 							<tbody id="tableBody"></tbody>
 						</table>
+						<div id="loading" style="display:none; padding-left:50%;"><img src="images/ajax-loader.gif" alt="loading gif" height='31' width='31'></img></div>
 					</div>
 					<div class="footer">
 						<div class="panel-footer">
@@ -61,8 +64,8 @@
 		</div>
 
 		<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="js\jquery.visible.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="js\jquery.smooth-scroll.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="scripts/lib/jquery.visible.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="scripts/lib/jquery.smooth-scroll.min.js"></script>
 
 	</body>
 </html>
