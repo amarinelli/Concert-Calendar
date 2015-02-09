@@ -6,6 +6,10 @@ var toronto;
 var table;
 
 $(document).ready(function() {
+
+	var images = ['background.jpg', 'background2.jpg', 'background3.jpg', 'background4.jpg', 'background5.jpg'];
+	$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
 	toastr.options = {
 		progressBar: false,
 	  closeButton: true,
@@ -86,7 +90,7 @@ $(document).ready(function() {
 		google.maps.event.trigger(map, 'resize');
 	});
 
-	$.ajax({
+	var ajaxReq = $.ajax({
 		beforeSend: function() {
 			$('#loading').show();
 		},
@@ -96,9 +100,10 @@ $(document).ready(function() {
 		success: CreateTable,
 		error: function (xhr, status) {
 			console.log(status);
+			ajaxReq.abort();
 			toastr.warning("Using local cached copy", "Unable to load data");
 			$.ajax({
-				url: "dist/data/kimonoData.min.json",
+				url: "data/kimonoData.min.json",
 				dataType: "json",
 				success: CreateTable
 			});
@@ -149,9 +154,9 @@ function CreateTable(response) {
 	searchInput.setAttribute("id","search_table");
 	searchInput.setAttribute("type","text");
 	searchInput.setAttribute("tabindex","0");
-	searchInput.setAttribute("title","Live filter records");
+	searchInput.setAttribute("title","Live filter, Esc to clear");
 	searchInput.setAttribute("autofocus","");
-	searchInput.setAttribute("placeholder","Filter shows");
+	searchInput.setAttribute("placeholder","Filter shows by any column");
 
 	$('#loading').hide();
 	CreateTimeStamp(response);
@@ -242,7 +247,7 @@ function createMarker(place) {
 }
 
 function VenueSearch() {
-	var searchUrl = "http://google.ca/search?q=toronto+" + address;
+	var searchUrl = ("http://google.ca/search?q=toronto+" + encodeURIComponent(address.replace(/&amp;/g, '&')));
 	window.open(searchUrl);
 }
 

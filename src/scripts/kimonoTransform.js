@@ -1,4 +1,4 @@
-// Occurs on Kimono servers
+// Occurs on Kimono servers - for reference only
 // https://help.kimonolabs.com/hc/en-us/articles/203744354-Modify-your-API-results-with-a-javascript-function-experimental-
 
 function transform(data) {

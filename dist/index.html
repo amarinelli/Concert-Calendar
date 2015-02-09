@@ -10,14 +10,15 @@
 
 	<title>Toronto Concert Calendar</title>
 
-	<link rel="icon" type="image/png" href="dist/images/favicon.png">
+	<link rel="icon" type="image/png" href="images/favicon.png">
 
+	<link rel="stylesheet" type="text/css" href="styles/lib/normalize.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.3/css/dataTables.responsive.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
-	<link rel="stylesheet" type="text/css" href="dist/styles/style.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.min.css">
 
 	<script type="text/javascript" charset="utf8" src="https://maps.googleapis.com/maps/api/js?signed_in=true&libraries=places&v=3.exp&key=AIzaSyBzTvb0f2AdZINFcBNPGYQ2bWu35-BKrKA"></script>
 	<script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -26,7 +27,7 @@
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/responsive/1.0.3/js/dataTables.responsive.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.js"></script>
 
-	<script type="text/javascript" src="dist/scripts/main.min.js"></script>
+	<script type="text/javascript" src="scripts/main.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -36,6 +37,9 @@
 						<span class="glyphicon glyphicon-music" style="font-size: 15px;" aria-hidden="true"></span>
 						<strong class="panel-title"> Toronto Concert Listings</strong>
 						<b id="update-header" class="pull-right"></b>
+						<a class="github-icon shake pull-right" href="https://github.com/amarinelli/Concert-Calendar">
+							<img src="images/GitHub-Mark-32px.png" height="16" width="16" alt="GitHub Icon"/>
+						</a>
 					</div>
 					<div class="panel-body">
 						<div id="map-canvas"></div>
@@ -52,7 +56,7 @@
 							</thead>
 							<tbody id="tableBody"></tbody>
 						</table>
-						<div id="loading" style="display:none; padding-left:50%;"><img src="dist/images/ajax-loader.gif" alt="loading gif" height='31' width='31'></img></div>
+						<div id="loading" style="display:none; padding-left:50%;"><img src="images/ajax-loader.gif" alt="loading gif" height='31' width='31'></img></div>
 					</div>
 					<div class="footer">
 						<div class="panel-footer">
@@ -64,8 +68,8 @@
 		</div>
 
 		<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="dist/scripts/lib/jquery.visible.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="dist/scripts/lib/jquery.smooth-scroll.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="scripts/lib/jquery.visible.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="scripts/lib/jquery.smooth-scroll.min.js"></script>
 
 	</body>
 </html>
