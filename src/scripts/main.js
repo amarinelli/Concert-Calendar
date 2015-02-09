@@ -16,10 +16,10 @@ $(document).ready(function() {
 	toronto = new google.maps.LatLng(43.6500, -79.3400);
 
 	var mapOptions = {
-					center: toronto,
-					zoomControl: true,
-					streetViewControl: true,
-					zoom: 11
+		center: toronto,
+		zoomControl: true,
+		streetViewControl: true,
+		zoom: 11
 	};
 
 	infowindow = new google.maps.InfoWindow();
@@ -87,33 +87,21 @@ $(document).ready(function() {
 	});
 
 	$.ajax({
+		beforeSend: function() {
+			$('#loading').show();
+		},
 		url:"https://www.kimonolabs.com/api/69auren6?&apikey=8mJuGzeHSesPIM93SJ19pXgAuLx9sxEE&kimmodify=1",
 		dataType:"jsonp",
+		timeout: 5000,
+		success: CreateTable,
 		error: function (xhr, status) {
 			console.log(status);
-		},
-		success: CreateTable,
-		complete: function(response) {
-			var day = response.responseJSON.results.site[0].updateDate;
-			var time = response.responseJSON.results.site[0].updateTime;
-			var sourceSite = response.responseJSON.results.site[0].source.alt;
-			var sourceUrl = response.responseJSON.results.site[0].source.href;
-
-			var replacements = {
-				"%DAY%": day,
-				"%TIME%": time,
-				"%SITE%": sourceSite,
-				"%URL%": sourceUrl
-			};
-
-			str = "<code>Last Updated: %DAY% @ %TIME% by</code><a class='update-link' href='%URL%'> %SITE%</a>";
-
-			updateString = str.replace(/%\w+%/g, function(all) {
-				return replacements[all] || all;
+			toastr.warning("Using local cached copy", "Unable to load data");
+			$.ajax({
+				url: "dist/data/kimonoData.min.json",
+				dataType: "json",
+				success: CreateTable
 			});
-
-			$("#update-header").html(updateString);
-			$("#update-footer").html(updateString);
 		}
 	});
 }); // end of ready
@@ -121,6 +109,8 @@ $(document).ready(function() {
 function CreateTable(response) {
 	var results = response.results;
 	var data = results.data;
+
+	$('#myTable').show();
 
 	table = $('#myTable').DataTable({
 		"data": data,
@@ -162,6 +152,32 @@ function CreateTable(response) {
 	searchInput.setAttribute("title","Live filter records");
 	searchInput.setAttribute("autofocus","");
 	searchInput.setAttribute("placeholder","Filter shows");
+
+	$('#loading').hide();
+	CreateTimeStamp(response);
+}
+
+function CreateTimeStamp(response) {
+	var day = response.results.site[0].updateDate;
+	var time = response.results.site[0].updateTime;
+	var sourceSite = response.results.site[0].source.alt;
+	var sourceUrl = response.results.site[0].source.href;
+
+	var replacements = {
+		"%DAY%": day,
+		"%TIME%": time,
+		"%SITE%": sourceSite,
+		"%URL%": sourceUrl
+	};
+
+	str = "<code>Last Updated: %DAY% @ %TIME% by</code><a class='update-link' href='%URL%'> %SITE%</a>";
+
+	updateString = str.replace(/%\w+%/g, function(all) {
+		return replacements[all] || all;
+	});
+
+	$("#update-header").html(updateString);
+	$("#update-footer").html(updateString);
 }
 
 //Venue click event - Places search

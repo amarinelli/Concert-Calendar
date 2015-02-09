@@ -9,3 +9,10 @@ img:
   description: 'Image tasks'
   tasks:
     - 'imagemin'
+
+data:
+  description: 'Copy json data, minify inplace, then rename'
+  tasks:
+    - 'copy'
+    - 'json-minify'
+    - 'rename'
