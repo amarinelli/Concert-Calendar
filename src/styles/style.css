@@ -64,10 +64,12 @@ body {
     }
 }
 
+.toast-bottom-center {
+  padding-bottom: 25px;
+}
+
 .toast-extra {
   line-height:1.35;
-  color: blue;
-  font-style: italic;
   padding-top: 5px;
 }
 

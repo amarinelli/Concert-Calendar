@@ -104,7 +104,7 @@ $(document).ready(function() {
 				"%TIME%": time,
 				"%SITE%": sourceSite,
 				"%URL%": sourceUrl
-			}
+			};
 
 			str = "<code>Last Updated: %DAY% @ %TIME% by</code><a class='update-link' href='%URL%'> %SITE%</a>";
 
@@ -196,7 +196,7 @@ function PlacesCallback(results, status) {
 		}
 
   } else {
-		toastr.warning("<div class='toast-extra'>Click to search it</div>", address + " not found");
+		toastr.warning("<div class='toast-extra'>Click here to search it</div>", address + " not found");
 	}
 }
 
@@ -214,11 +214,7 @@ function createMarker(place) {
 	markers.push(marker);
 
   google.maps.event.addListener(marker, 'click', function() {
-    infowindow.setContent("<div class='info-window'>"
-			+ "<b>" + place.name + "</b>"
-			+ "<br>" + place.vicinity
-			+ "</div>");
-
+    infowindow.setContent("<div class='info-window'>" + "<b>" + place.name + "</b>" + "<br>" + place.vicinity + "</div>");
     infowindow.open(map, this);
   });
 
@@ -237,9 +233,9 @@ function VenueSearch() {
 $(function(){
 		$('html').keydown(function(e){
 			if (e.which == 37) {
-				$("#myTable_previous").click()
+				$("#myTable_previous").click();
 			} else if (e.which == 39) {
-				$("#myTable_next").click()
+				$("#myTable_next").click();
 			} else if (e.which == 27) {
 				$("#search_table").val("");
 			}

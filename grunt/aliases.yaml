@@ -1,0 +1,11 @@
+default:
+  description: 'Default (production) build'
+  tasks:
+    - jshint
+    - uglify
+    - cssmin
+
+img:
+  description: 'Image tasks'
+  tasks:
+    - 'imagemin'

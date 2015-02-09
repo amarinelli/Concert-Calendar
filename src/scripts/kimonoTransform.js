@@ -1,5 +1,5 @@
+// Occurs on Kimono servers
 // https://help.kimonolabs.com/hc/en-us/articles/203744354-Modify-your-API-results-with-a-javascript-function-experimental-
-// occurs on Kimono servers
 
 function transform(data) {
 
@@ -11,9 +11,7 @@ function transform(data) {
   shows = data.results.data;
   shows.forEach(function(show){
     venue = show.venue;
-    show.venue = "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>"
-      + venue
-      + "</div>";
+    show.venue = "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>" + venue + "</div>";
   });
 
   return data;
