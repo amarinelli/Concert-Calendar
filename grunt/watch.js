@@ -1,8 +1,16 @@
 module.exports = {
 
     options: {
-        spawn: false,
-        livereload: true
+        spawn: false
+    },
+
+    src: {
+        files: [
+            'src/index.html'
+        ],
+        tasks: [
+            'copy:index'
+        ]
     },
 
     scripts: {

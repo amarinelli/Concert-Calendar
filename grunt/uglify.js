@@ -6,7 +6,7 @@ module.exports = {
       src: ['**/*.js', '!kimonoTransform.js'],
       dest: 'dist/scripts/',
       extDot: 'last',
-      ext: '.min.js'
+      ext: '.js'
     }]
   }
 };

@@ -1,9 +1,10 @@
 default:
   description: 'Default (production) build'
   tasks:
-    - jshint
-    - uglify
-    - cssmin
+    - 'jshint'
+    - 'uglify'
+    - 'cssmin'
+    - 'copy:index'
 
 img:
   description: 'Image tasks'
@@ -13,6 +14,6 @@ img:
 data:
   description: 'Copy json data, minify inplace, then rename'
   tasks:
-    - 'copy'
+    - 'copy:data'
     - 'json-minify'
     - 'rename'

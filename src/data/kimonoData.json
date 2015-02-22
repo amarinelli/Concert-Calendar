@@ -1,14 +1,14 @@
 {
   "name": "soundscapes-music",
-  "count": 222,
+  "count": 220,
   "frequency": "Daily",
-  "version": 26,
+  "version": 36,
   "newdata": false,
   "lastrunstatus": "success",
-  "lastsuccess": "Mon Feb 09 2015 21:55:08 GMT+0000 (UTC)",
+  "lastsuccess": "Sat Feb 21 2015 07:42:55 GMT+0000 (UTC)",
   "thisversionstatus": "success",
-  "nextrun": "Tue Feb 10 2015 23:11:00 GMT+0000 (UTC)",
-  "thisversionrun": "Mon Feb 09 2015 21:55:06 GMT+0000 (UTC)",
+  "nextrun": "Mon Feb 23 2015 02:33:51 GMT+0000 (UTC)",
+  "thisversionrun": "Sat Feb 21 2015 07:42:52 GMT+0000 (UTC)",
   "results": {
     "data": [
       {
@@ -16,12 +16,6 @@
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Silver Dollar</div>",
         "date": "Tue. Mar 3",
         "price": "$12.50"
-      },
-      {
-        "artist": "The 3tards",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Rockpile West</div>",
-        "date": "Sat. Feb 7",
-        "price": "$10.00"
       },
       {
         "artist": "Acid Mothers Temple",
@@ -42,34 +36,16 @@
         "price": "$20.50"
       },
       {
-        "artist": "Anti-Flag",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
-        "date": "Thu. Feb 12",
-        "price": "$22.50"
-      },
-      {
-        "artist": "Ariel Pink",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Tue. Feb 19",
-        "price": "$21.00"
-      },
-      {
-        "artist": "Asaf Avidan",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Opera House</div>",
-        "date": "Mon. Feb 9",
-        "price": "$26.00"
+        "artist": "Babymetal",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Tue. May 12",
+        "price": "$49.00"
       },
       {
         "artist": "Bad Manners",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
         "date": "Sat. May 16",
         "price": "$20.00"
-      },
-      {
-        "artist": "Bad Suns",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Garrison</div>",
-        "date": "Wed. Feb 11",
-        "price": "SOLD OUT"
       },
       {
         "artist": "Bakermat",
@@ -81,7 +57,7 @@
         "artist": "The Barr Brothers",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
         "date": "Thu. Mar 12",
-        "price": "$20.00"
+        "price": "SOLD OUT"
       },
       {
         "artist": "Bayside",
@@ -96,10 +72,16 @@
         "price": "$20.00"
       },
       {
-        "artist": "The Big Sound",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Fri. Feb 13",
+        "artist": "Ben Lee (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Garrison</div>",
+        "date": "Fri. May 8",
         "price": "$15.00"
+      },
+      {
+        "artist": "Ben Ottewell",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
+        "date": "Mon. Mar 23",
+        "price": "$20.00"
       },
       {
         "artist": "Black Lips",
@@ -114,64 +96,22 @@
         "price": "$22.50"
       },
       {
-        "artist": "Bob Marley Tribute (Show Only)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Sat. Feb 7",
-        "price": "$18.00"
-      },
-      {
-        "artist": "Bob Marley Tribute (Show + Dinner)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Sat. Feb 7",
-        "price": "$32.00"
-      },
-      {
         "artist": "The Bright Light Social Hour",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
         "date": "Wed. Apr 15",
         "price": "$11.50"
       },
       {
-        "artist": "Brodinski",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton</div>",
-        "date": "Sun. Feb 15",
-        "price": "$15.00"
-      },
-      {
         "artist": "Broods",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton</div>",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton \nDanforth Music Hall</div>",
         "date": "Fri. Mar 20",
-        "price": "$20.00"
+        "price": "SOLD OUT"
       },
       {
-        "artist": "Brooke Fraser",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Tue. Feb 17",
-        "price": "$23.50"
-      },
-      {
-        "artist": "Brooke Fraser",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Wed. Feb 18",
-        "price": "$23.50"
-      },
-      {
-        "artist": "Bush",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Sound Academy</div>",
-        "date": "Wed. Feb 18",
-        "price": "$41.00"
-      },
-      {
-        "artist": "Cabaret Valtaire (Scandelles Burlesque)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
-        "date": "Sat. Feb 14",
-        "price": "$20.00"
-      },
-      {
-        "artist": "Calabrese + The Biters",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Rockpile West</div>",
-        "date": "Thu. Feb 19",
-        "price": "$15.00"
+        "artist": "Calexico",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Opera House</div>",
+        "date": "Tue. Jun 2",
+        "price": "$25.00"
       },
       {
         "artist": "Camm Hunter",
@@ -234,16 +174,16 @@
         "price": "$24.00"
       },
       {
+        "artist": "Cloud Nothings (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Sat. May 9",
+        "price": "$20.00"
+      },
+      {
         "artist": "Cold War Kids",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
         "date": "Wed. Mar 18",
         "price": "$23.50"
-      },
-      {
-        "artist": "Constellation Records Musique Fragile Showcase \n(ft. Saltland, Nick Kuepfer + Khora)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Huntclub Studios</div>",
-        "date": "Thu. Feb 5",
-        "price": "$10.00"
       },
       {
         "artist": "Craft Spells",
@@ -264,6 +204,18 @@
         "price": "SOLD OUT"
       },
       {
+        "artist": "Dan Deacon",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Wed. May 20",
+        "price": "$16.50"
+      },
+      {
+        "artist": "Daniel Lanois (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Fri. May 1",
+        "price": "$27.50"
+      },
+      {
         "artist": "Danko Jones",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
         "date": "Fri. Apr 24",
@@ -282,16 +234,10 @@
         "price": "$16.50"
       },
       {
-        "artist": "Denitia & Sene",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Revival</div>",
-        "date": "Thu. Feb 19",
-        "price": "$15.00"
-      },
-      {
-        "artist": "Diamond D",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Sun. Feb 15",
-        "price": "$19.50"
+        "artist": "The Devil Wears Prada",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Mon. Apr 13",
+        "price": "$25.00"
       },
       {
         "artist": "Diamond Rugs",
@@ -306,16 +252,16 @@
         "price": "$10.00"
       },
       {
+        "artist": "Die Mannequin",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Sat. Apr 16",
+        "price": "$15.00"
+      },
+      {
         "artist": "Dilana",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Dance Cave</div>",
         "date": "Fri. Mar 6",
         "price": "$18.50"
-      },
-      {
-        "artist": "The Districts",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
-        "date": "Wed. Feb 18",
-        "price": "$12.00"
       },
       {
         "artist": "The Dodos",
@@ -328,12 +274,6 @@
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Music Gallery</div>",
         "date": "Sat. Feb 21",
         "price": "$13.00"
-      },
-      {
-        "artist": "Dumbfoundead",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Rockpile West</div>",
-        "date": "Fri. Feb 6",
-        "price": "$25.00"
       },
       {
         "artist": "Echosmith",
@@ -360,28 +300,34 @@
         "price": "$15.50"
       },
       {
-        "artist": "Father John Misty\n(on sale Fri. Nov 14 at 10am)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
-        "date": "Wed. Feb 18",
-        "price": "SOLD OUT"
-      },
-      {
         "artist": "Father Murphy",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Dance Cave</div>",
         "date": "Fri. Mar 20",
         "price": "$8.50"
       },
       {
-        "artist": "Feast In The East 45\n(ft. EONS, Matthew 'Doc' Dunn, Jooj + Alex Lukashevsky",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Jam Factory</div>",
-        "date": "Sat. Feb 7",
-        "price": "$8.00"
-      },
-      {
-        "artist": "Field Trip 2015",
+        "artist": "Field Trip 2015 (2-Day Pass)",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Fort York Garrison Common</div>",
         "date": "Sat.-Sun. Jun 6-7",
         "price": "$125.00"
+      },
+      {
+        "artist": "Field Trip 2015 (1-Day Pass)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Fort York Garrison Common</div>",
+        "date": "Sat. Jun 6",
+        "price": "$75.00"
+      },
+      {
+        "artist": "Field Trip 2015 (1-Day Pass)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Fort York Garrison Common</div>",
+        "date": "Sun. Jun 7",
+        "price": "$75.00"
+      },
+      {
+        "artist": "The Fleshtones",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Wed. Apr 8",
+        "price": "$12.50"
       },
       {
         "artist": "Flight Facilities",
@@ -408,6 +354,12 @@
         "price": "$15.00"
       },
       {
+        "artist": "The Franklin Electric",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
+        "date": "Thu. Apr 2",
+        "price": "$16.50"
+      },
+      {
         "artist": "Front Porch Step",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hard Luck Bar</div>",
         "date": "Sat. Feb 21",
@@ -432,10 +384,28 @@
         "price": "$36.50"
       },
       {
-        "artist": "Giraffage",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton</div>",
-        "date": "Fri. Feb 6",
-        "price": "$15.00"
+        "artist": "Ghost Of A Saber Tooth Tiger \n(w/ Fat White Family + Twin Peaks) (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Fri. May 8",
+        "price": "$20.00"
+      },
+      {
+        "artist": "Gogol Bordello + Flogging Molly",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Echo Beach</div>",
+        "date": "Sun. Jun 21",
+        "price": "$47.50"
+      },
+      {
+        "artist": "Great Lake Swimmers",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Randolph Theatre</div>",
+        "date": "Thu. Apr 23",
+        "price": "$30.00"
+      },
+      {
+        "artist": "Great Lake Swimmers",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Randolph Theatre</div>",
+        "date": "Fri. Apr 24",
+        "price": "$30.00"
       },
       {
         "artist": "Gutter Demons",
@@ -462,6 +432,12 @@
         "price": "$40.00"
       },
       {
+        "artist": "Harms Way",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Coalition (349A College St.)</div>",
+        "date": "Fri. Apr 3",
+        "price": "$12.50"
+      },
+      {
         "artist": "Hauschka",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Polish Combatants Hall</div>",
         "date": "Sat. Apr 11",
@@ -486,6 +462,18 @@
         "price": "$16.50"
       },
       {
+        "artist": "Hot Chip",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Wed. Jun 3",
+        "price": "$36.50"
+      },
+      {
+        "artist": "Houndmouth",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Thu. Apr 9",
+        "price": "$15.00"
+      },
+      {
         "artist": "Hundred Waters",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
         "date": "Thu. Feb 26",
@@ -495,7 +483,7 @@
         "artist": "Ibeyi",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
         "date": "Fri. Mar 27",
-        "price": "$17.50"
+        "price": "SOLD OUT"
       },
       {
         "artist": "The Independents",
@@ -522,10 +510,22 @@
         "price": "$36.50"
       },
       {
+        "artist": "Iska Dhaaf",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
+        "date": "Fri. Apr 24",
+        "price": "$11.50"
+      },
+      {
         "artist": "JD McPherson",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
         "date": "Sat. Mar 7",
         "price": "$15.50"
+      },
+      {
+        "artist": "Jessie J",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Thu. May 7",
+        "price": "SOLD OUT"
       },
       {
         "artist": "Jessie Ware",
@@ -534,21 +534,15 @@
         "price": "$31.50"
       },
       {
+        "artist": "The Jesus And Mary Chain (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Fri. May 1",
+        "price": "$70.00"
+      },
+      {
         "artist": "JJ and the Pillars",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
         "date": "Sat. Mar 7",
-        "price": "$15.00"
-      },
-      {
-        "artist": "JMSN",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
-        "date": "Thu. Feb 19",
-        "price": "$15.00"
-      },
-      {
-        "artist": "Joe Driscoll & Sekou Kouyate",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lula Lounge</div>",
-        "date": "Sun. Feb 8",
         "price": "$15.00"
       },
       {
@@ -564,22 +558,22 @@
         "price": "$21.50"
       },
       {
-        "artist": "Joshua Radin",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
-        "date": "Tue. Feb 10",
-        "price": "$32.00"
+        "artist": "Joseph",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
+        "date": "Tue. Apr 7",
+        "price": "$10.00"
+      },
+      {
+        "artist": "Josh Rouse",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Wed. Jun 10",
+        "price": "$20.50"
       },
       {
         "artist": "Jukebox The Ghost",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
         "date": "Sat. Mar 7",
         "price": "$15.50"
-      },
-      {
-        "artist": "Julian Taylor Band",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
-        "date": "Sat. Feb 14",
-        "price": "$10.00"
       },
       {
         "artist": "Kaiser Chiefs",
@@ -603,6 +597,12 @@
         "artist": "Kindness",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Wrongbar</div>",
         "date": "Fri. Mar 13",
+        "price": "$20.00"
+      },
+      {
+        "artist": "King Tuff (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Thu. May 7",
         "price": "$20.00"
       },
       {
@@ -648,10 +648,22 @@
         "price": "SOLD OUT"
       },
       {
+        "artist": "The Kooks",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Mon. Jun 15",
+        "price": "$37.50"
+      },
+      {
         "artist": "La Dispute",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
         "date": "Wed. Apr 1",
         "price": "$26.50"
+      },
+      {
+        "artist": "Lady Lamb The Beekeeper (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Garrison</div>",
+        "date": "Sat. May 9",
+        "price": "$15.00"
       },
       {
         "artist": "Laibach",
@@ -690,6 +702,12 @@
         "price": "$20.00"
       },
       {
+        "artist": "Little Dragon",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Sun. May 31",
+        "price": "$26.50"
+      },
+      {
         "artist": "Logic",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
         "date": "Tue. Mar 10",
@@ -706,18 +724,6 @@
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
         "date": "Fri. Feb 27",
         "price": "SOLD OUT"
-      },
-      {
-        "artist": "Machine Head",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Wed. Feb 4",
-        "price": "$26.50"
-      },
-      {
-        "artist": "Madchild",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Rockpile West</div>",
-        "date": "Wed. Feb 11",
-        "price": "$30.00"
       },
       {
         "artist": "Madeon",
@@ -762,10 +768,34 @@
         "price": "$25.00"
       },
       {
+        "artist": "Matt Pond PA",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Mon. May 11",
+        "price": "$17.00"
+      },
+      {
+        "artist": "The Mavericks",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Fri. Apr 24",
+        "price": "$36.00"
+      },
+      {
         "artist": "Max Jury",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
         "date": "Mon. Apr 20",
         "price": "$10.00"
+      },
+      {
+        "artist": "METZ",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Fri. May 1",
+        "price": "$16.00"
+      },
+      {
+        "artist": "METZ",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Sat. May 2",
+        "price": "$16.00"
       },
       {
         "artist": "mewithoutYou",
@@ -792,34 +822,22 @@
         "price": "$13.50"
       },
       {
-        "artist": "Miracle Fortress",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mercer Union</div>",
-        "date": "Thu. Feb 5",
-        "price": "$10.00"
-      },
-      {
         "artist": "Mix Master Mike + Grand Wizzard Theodore",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
         "date": "Sat. Feb 28",
         "price": "$35.00"
       },
       {
-        "artist": "Monomyth",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Silver Dollar</div>",
-        "date": "Fri. Feb 6",
-        "price": "$8.00"
+        "artist": "The Mob",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Sneaky Dee's</div>",
+        "date": "Fri. Apr 3",
+        "price": "$12.50"
       },
       {
         "artist": "Moon Duo",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Silver Dollar</div>",
         "date": "Thu. Mar 5",
         "price": "$12.50"
-      },
-      {
-        "artist": "Moosh & Twist",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hard Luck Bar</div>",
-        "date": "Fri. Feb 20",
-        "price": "$13.00"
       },
       {
         "artist": "Motionless In White",
@@ -846,12 +864,6 @@
         "price": "$23.50"
       },
       {
-        "artist": "The New Pornographers\n(on sale Fri. Nov 14 at 10am)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
-        "date": "Thu. Feb 5",
-        "price": "SOLD OUT"
-      },
-      {
         "artist": "The OBGMs",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
         "date": "Sat. Feb 28",
@@ -864,10 +876,10 @@
         "price": "$25.00"
       },
       {
-        "artist": "Olivia Chaney",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Dakota Tavern</div>",
-        "date": "Tue. Feb 10",
-        "price": "$13.50"
+        "artist": "The Orwells (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Wed. May 6",
+        "price": "$22.50"
       },
       {
         "artist": "Peach Kelli Pop",
@@ -898,12 +910,6 @@
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Sound Academy</div>",
         "date": "Thu. Mar 12",
         "price": "SOLD OUT"
-      },
-      {
-        "artist": "Peter Evans\n(w/ Germaine Liu + Brian Ruryk)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Ratio</div>",
-        "date": "Fri. Feb 6",
-        "price": "$8.00"
       },
       {
         "artist": "Pokey LaFarge",
@@ -954,10 +960,10 @@
         "price": "$12.50"
       },
       {
-        "artist": "Rich Homie Quan",
+        "artist": "The Reverend Horton Heat",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Tue. Feb 17",
-        "price": "$40.00"
+        "date": "Fri. Jun 5",
+        "price": "$25.00"
       },
       {
         "artist": "Ride",
@@ -972,22 +978,16 @@
         "price": "$37.50"
       },
       {
-        "artist": "Robert Gordon & Chris Spedding",
+        "artist": "Rival Sons (CMW Presents)",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Fri. Feb 13",
-        "price": "$25.00"
+        "date": "Thu. May 7",
+        "price": "$22.50"
       },
       {
         "artist": "Rone",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Wrongbar</div>",
         "date": "Tue. Jun 2",
         "price": "$14.00"
-      },
-      {
-        "artist": "Rufus Wainwright",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Queen Elizabeth Theatre</div>",
-        "date": "Fri. Feb 6",
-        "price": "$37.50"
       },
       {
         "artist": "Rupaul's Drag Race",
@@ -1008,16 +1008,16 @@
         "price": "$12.00"
       },
       {
-        "artist": "Samantha Martin",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lula Lounge</div>",
-        "date": "Wed. Feb 18",
-        "price": "$15.00"
+        "artist": "Scott Bradlee's Postmodern Jukebox",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
+        "date": "Sat. Jun 6",
+        "price": "$29.00"
       },
       {
-        "artist": "Sam Feldt",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton</div>",
-        "date": "Sat. Feb 7",
-        "price": "$15.00"
+        "artist": "Scott Weiland And The Wildabouts (CMW Presents)",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Mod Club</div>",
+        "date": "Thu. May 7",
+        "price": "$27.50"
       },
       {
         "artist": "Screaming Females",
@@ -1032,16 +1032,16 @@
         "price": "$20.00"
       },
       {
+        "artist": "Shy Girls",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Garrison</div>",
+        "date": "Sat. Apr 25",
+        "price": "$12.00"
+      },
+      {
         "artist": "Silverstein",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
         "date": "Sat. Feb 28",
         "price": "$26.50"
-      },
-      {
-        "artist": "Sina Salimi",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Revival</div>",
-        "date": "Sat. Feb 14",
-        "price": "$25.00"
       },
       {
         "artist": "Six Organs Of Admittance",
@@ -1074,6 +1074,12 @@
         "price": "$36.50"
       },
       {
+        "artist": "Slim Cessna's Auto Club",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Thu. May 21",
+        "price": "$12.50"
+      },
+      {
         "artist": "The Soft Moon",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Hotel</div>",
         "date": "Mon. Apr 13",
@@ -1092,28 +1098,34 @@
         "price": "$15.00"
       },
       {
-        "artist": "Spiritual Songs Of Sub-Saharan Africa",
+        "artist": "Sounds Of Saba",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Alliance Francaise de Toronto</div>",
-        "date": "Sat. Feb 14",
+        "date": "Sat. Mar 7",
         "price": "$20.00"
       },
       {
-        "artist": "Stars + Hey Rosetta!",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
-        "date": "Thu. Feb 12",
-        "price": "SOLD OUT"
+        "artist": "Speedy Ortiz",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Horseshoe</div>",
+        "date": "Fri. Jun 5",
+        "price": "$13.50"
       },
       {
-        "artist": "Stars + Hey Rosetta!",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
-        "date": "Fri. Feb 13",
-        "price": "SOLD OUT"
+        "artist": "Spoon",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Tue. Jun 23",
+        "price": "$27.50"
       },
       {
-        "artist": "Stars + Hey Rosetta!\n(on sale Sat. Nov 8 at 10am)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
-        "date": "Sat. Feb 14",
-        "price": "SOLD OUT"
+        "artist": "Spoon",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
+        "date": "Wed. Jun 24",
+        "price": "$27.50"
+      },
+      {
+        "artist": "Strung Out",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Opera House</div>",
+        "date": "Fri. May 1",
+        "price": "$26.00"
       },
       {
         "artist": "Sturgill Simpson",
@@ -1146,12 +1158,6 @@
         "price": "$15.00"
       },
       {
-        "artist": "Swans + Xylouris White",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Phoenix</div>",
-        "date": "Fri. Feb 20",
-        "price": "$27.00"
-      },
-      {
         "artist": "Taking Back Sunday\n(on sale Fri. Nov 14 at 10am)",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
         "date": "Fri. Mar 13",
@@ -1170,10 +1176,10 @@
         "price": "$10.00"
       },
       {
-        "artist": "Thin Edge Music Collective:\nRaging Against The Machine",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Music Gallery</div>",
-        "date": "Thu. Feb 19",
-        "price": "$18.00"
+        "artist": "The Temperance Movement",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Rivoli</div>",
+        "date": "Sun. Mar 8",
+        "price": "$12.50"
       },
       {
         "artist": "Tigers Jaw",
@@ -1191,7 +1197,7 @@
         "artist": "Tobias Jesso Jr.",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Drake Underground</div>",
         "date": "Sun. Mar 22",
-        "price": "$15.00"
+        "price": "SOLD OUT"
       },
       {
         "artist": "TOPS + Tasseomancy",
@@ -1208,7 +1214,7 @@
       {
         "artist": "Toronto Roller Derby",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Downsview Park</div>",
-        "date": "Sat. Feb 7",
+        "date": "Sat. Feb 21",
         "price": "$12.00"
       },
       {
@@ -1254,6 +1260,12 @@
         "price": "$29.00"
       },
       {
+        "artist": "Unknown Mortal Orchestra",
+        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Lee's Palace</div>",
+        "date": "Thu. Jun 4",
+        "price": "$15.00"
+      },
+      {
         "artist": "The Used",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Danforth Music Hall</div>",
         "date": "Sun. Apr 19",
@@ -1263,12 +1275,6 @@
         "artist": "Veryan Weston & Trevor Watts \n+ Segger vs. Segger",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Music Gallery</div>",
         "date": "Fri. Apr 24",
-        "price": "$15.00"
-      },
-      {
-        "artist": "Viceroy",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Hoxton</div>",
-        "date": "Fri. Feb 13",
         "price": "$15.00"
       },
       {
@@ -1284,28 +1290,10 @@
         "price": "$12.00"
       },
       {
-        "artist": "Wavelength 15: Festival Pass",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>venues across Toronto</div>",
-        "date": "Fri.-Sun. Feb 13-15",
-        "price": "$33.00"
-      },
-      {
-        "artist": "Wavelength 15: Night 1 (ft. Art Bergmann, controller.controller, more)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Sneaky Dee's</div>",
-        "date": "Fri. Feb 13",
-        "price": "$10.00"
-      },
-      {
-        "artist": "Wavelength 15: Night 2 (ft. Lowell, The Acorn, more)",
-        "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Polish Combatants Hall</div>",
-        "date": "Sat. Feb 14",
-        "price": "$15.00"
-      },
-      {
-        "artist": "Wavelength 15: Night 3 (ft. Mozart's Sister, Fresh Snow, more)",
+        "artist": "Waxahatchee",
         "venue": "<div class='venue-link' onclick='GoogleMapVenue_click(this.innerHTML)'>Garrison</div>",
-        "date": "Sun. Feb 15",
-        "price": "$12.00"
+        "date": "Sun. May 10",
+        "price": "$13.50"
       },
       {
         "artist": "Will Butler\n(on sale Fri. Dec 12 at 10am)",
@@ -1345,8 +1333,8 @@
           "src": "http://www.soundscapesmusic.com/storage/general-pictures/soundscapesheader2014.jpg",
           "href": "http://www.soundscapesmusic.com/"
         },
-        "updateDate": "Feb 9th",
-        "updateTime": "3:40PM"
+        "updateDate": "Feb 20th",
+        "updateTime": "6:45PM"
       }
     ]
   }
