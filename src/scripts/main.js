@@ -103,7 +103,7 @@ $(document).ready(function() {
 			ajaxReq.abort();
 			toastr.warning("Using local cached copy", "Unable to load data");
 			$.ajax({
-				url: "data/kimonoData.min.json",
+				url: "data/kimonoData.json",
 				dataType: "json",
 				success: CreateTable
 			});

@@ -16,4 +16,3 @@ data:
   tasks:
     - 'copy:data'
     - 'json-minify'
-    - 'rename'
