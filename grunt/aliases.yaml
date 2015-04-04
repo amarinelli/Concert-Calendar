@@ -12,7 +12,7 @@ img:
     - 'imagemin'
 
 data:
-  description: 'Copy json data, minify inplace, then rename'
+  description: 'Copy data to /dist then minify in-place'
   tasks:
     - 'copy:data'
     - 'json-minify'
